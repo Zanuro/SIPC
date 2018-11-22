@@ -1,0 +1,162 @@
+
+p {
+  color: green;
+  text-align: center;
+}
+img {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+}
+
+.parte-baja{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  font-style: italic;
+  font-family: "Libre Baskerville", "Anton", "Josefin Sans";
+
+}
+
+.navigation{
+  background-color: white;
+  border-style: ridge;
+  border-color: #8231E8;
+  border-radius: 15px;
+
+}
+
+.pestanas-menu{
+
+
+}
+/* .active {
+  padding-right: 70px;
+  align-items: center;
+
+} */
+
+.reloj{
+  width: 35px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 60%;
+  margin:2px auto;
+  position:relative;
+
+}
+.reloj1{
+  position: relative;
+  width:100%;
+  height: 100%;
+  transform: translateY(40px);
+
+}
+.hora{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    top:0%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0,1.65,.09,1.3);
+}
+.minuto{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    top:0%;
+    transform-origin: 100%;
+    transform: rotate(120deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0,1.65,.09,1.3);
+
+}
+.segundo{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    top:0%;
+    transform-origin: 100%;
+    transform: rotate(180deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0,1.65,.09,1.3);
+
+}
+.pestanas-menu{
+  display: grid;
+  grid-template-columns: auto auto ;
+
+}
+
+@import url("'https://fonts.googleapis.com/css?family=Gilda+Display'");
+/* html {
+  box-sizing: border-box;
+} */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #DAC399;
+  font-family: "Gilda-Display", serif;
+}
+
+.naveg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 0em;
+  list-style: none;
+}
+
+.naveg li {
+  width: 125px;
+  height: 50px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+.naveg li a {
+  font-size: 22px;
+  color: #777;
+  text-decoration: none;
+  transition: all 0.45s;
+}
+.naveg li:hover {
+  background:
+  
+}
+.naveg li:hover a {
+  color: #d94f5c;
+}
+.naveg li:not(:last-child) {
+  margin-right: 30px;
+}
+
+@-webkit-keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
