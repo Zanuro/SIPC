@@ -45,9 +45,18 @@
 
 }
 .titulo h2{
+  text-align: center;
+  position: relative;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 2em;
+}
+.titulo p{
   text-align:center;
+  position: relative;
+  bottom: -3em;
   font-family: 'Black Han Sans', sans-serif;
   font-size: 2em;
+  color: #FF0000;
 }
 
 .imag{
