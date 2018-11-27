@@ -2,6 +2,7 @@
 .navbar{
   background: #5F75FF;}
 }
+
 .nav-link{
   margin-right:2em;}
 .navbar-brand{
@@ -20,9 +21,33 @@
 .navbar-collapse{ justify-content: flex-end;}
 
 .header{
-  background-image : url('https://dtqnv8in03d1n.cloudfront.net/wp-content/uploads/2016/09/best-programming-habits-to-have.jpg');
-  background-position: center;
-  background-size: cover;
+  background-image: url('https://dtqnv8in03d1n.cloudfront.net/wp-content/uploads/2016/09/best-programming-habits-to-have.jpg');
+  background-attachment: scroll;
+  background-size:cover;
+  top:2em;
+  width:120em;
+  height:25em;
+  z-index: -2;
+  opacity: 0.9;
+}
+.titulo {
+  position: fixed;
+  top: 10%;
+  color:#FF6202;
+  margin: auto;
+}
+.titulo h1{
+  text-align: center;
+  letter-spacing: 3px;
+  /* text-shadow: 3px 3px blue; */
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 3.5em;
+
+}
+.titulo h2{
+  text-align:center;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 2em;
 }
 
 .imag{
