@@ -21,7 +21,7 @@
 .navbar-collapse{ justify-content: flex-end;}
 
 .header{
-  background-image: url('https://dtqnv8in03d1n.cloudfront.net/wp-content/uploads/2016/09/best-programming-habits-to-have.jpg');
+  background-image: url('https://www.jamesgmartin.center/wp-content/uploads/2017/09/Fotolia_169539793_Subscription_Monthly_M-1200x840.jpg');
   background-attachment: scroll;
   background-size:cover;
   top:2em;
@@ -40,7 +40,7 @@
   position: relative;
   text-align: center;
   letter-spacing: 3px;
-  color:#FFECE1;
+  color:#EDCA36;
   /* text-shadow: 3px 3px blue; */
   font-family: 'Black Han Sans', sans-serif;
   font-size: 3.5em;
@@ -50,26 +50,51 @@
   text-align: center;
   position: relative;
   font-family: "Black Han Sans", sans-serif;
-  font-size: 2em;
+  font-size: 2.5em;
+  color:#00D64D;
+  font-weight: bolder;
 }
 .titulo h3{
   text-align:center;
   position: relative;
-  bottom:-4em;
+  bottom:-2em;
   font-family: 'Black Han Sans', sans-serif;
-  font-size: 2em;
-  color: #FF0000;
+  font-size: 2.5em;
+  color: #00D64D;
+  font-weight: bolder;
 }
 
 .imag{
   margin: 10px;
   border-radius: 20px;
 }
-.rowa{
-  background-color: red;
+.uno{
+  background-color: #D2D6B9;
+  height:300px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   /* background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/programming-languages-to-learn-for-wordpress-featured-image.png'); */
 }
+.uno h1{
+  text-align: left;
+  position: relative;
+  bottom:-10px;
+}
 
+.uno button{
+  position: relative;
+  top:-105px;
+  right:-870px;
+}
+.dos{
+  background-color: #D2D6B9;
+  height:300px;
+}
+.dos a{
+  position: relative;
+  top:-150px;
+  right:-200px;
+}
 img {
     height: 100px;
     width: 100px;
