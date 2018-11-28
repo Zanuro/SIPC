@@ -28,69 +28,134 @@
      <li class="nav-item"><a class="nav-link" href="foro">Forum</a></li>
      <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
      <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-     <li class="nav-item"><a class="nav-link" href="registro">Registrarse</a></li>
    </ul>
    <form class="form-inline my-2">
       <input class="form-control mr-sm-1" type="search" placeholder="Busqueda" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Buscar</button>
+      <button class="btn btn-outline-success" type="submit">Registrarse</button>
     </form>
+
   </div>
  </nav> <!--informacion google maps,correo, -->
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container-fluid">
       <div class="titulo">
         <h1>Sys-Learn </h1>   <!--anadir lo de font-style para el viewport que no funciona -->
         <h2>Welcome to this amazing website.</h2>
-        <p>Here you can become a real programmer!:) </p>
+        <h3>Here you can become a real programmer!:) </h3>
       </div>
     </div>
   </header>
   <div class="mainpage">
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-6 offset-lg-2">
+        <hr>
+        <h1> Bienvenido! </h1>
+        <p> Esto es un mensaje de bienvenida para todos
+            los nuevos usuarios de nuestra pagina, y que
+            se familiaricen con nuestra pagina.Pulse el boton
+            "See More" para mas informacion.</p>
+      <button class="btn btn-outline-success" type="submit">See More</button>
+      <hr>
     </div>
+    <div class="col-lg-2 offset-lg-2">
+      <div class="login">
+        <p> Login </p>
+        <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com">
+        <input class="passwd" type="password" required name="contraseña" placeholder="Passwd">
+        <button class="buton registro">Login</button>
+        <p class="registrate">Registrarse</p>
+      </div>
+      <form action="datos.php" method="get">
+        Username: <input type="text" name="usuario">
+        Passwd: <input type="password" name="contraseña" >
+        Login: <input type="submit" name="entrar" >
+        Reset: <input type="reset" name="borrar" >
+      </form>
+    </div>
+    </div>
+      <div class="row">
+      <div class="col-lg-6 offset-lg-2">
+        <hr>
+        <h1> Challenges! </h1>
+        <p> En esta seccion podras enfrentarte a los mejores
+            en diferentes retos de programacion, en el lenguaje
+            que mejor domines.</p>
+        <h2> Reto del Dia! </h2>
+        <h3> Full Metal Chemist #1:build me....</h3>
+        <p> El tema de este kata es crear dos clases:Molecula y Atomo
+            que te permitiran constuir equivalentes numericos de compuestos
+            organicos utilizando un conjunto de metodos y restituir
+            algunas de sus propiedades. </p>
+        <!-- <a class="imagg" href="imagenn.asp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Biotin-3D-balls.png/1024px-Biotin-3D-balls.png" alt = "Imagen molecula" style="width:50px;height:50px"/> -->
+        <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 offset-lg-2">
+          <hr>
+          <p>Learn to code in 60 days</br>
+          Aprende los conceptos basicos de la programacion!</p>
+          <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 offset-lg-2">
+      <hr>
+      <p>Skills que puedes mejorar con nosotros!</br>
+      -Sistemas distribuidos</br>
+      -Bases relacionales</br>
+      -Efficient scripting</br>
+      -Regex</br>
+      -A.I</br>
+      -Data-mining</br>
+      -Data-scraping</p>
+      <hr>
+    </div>
+  </div>
 </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <a href="#" class="fa fa-facebook white-text"></a>
+        <a href="#" class="fa fa-twitter white-text"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <hr>
  <div class="container-fluid">
    <div class="row">
-     <div class="col-md-2">.col-md-2 .col-xs-3</div>  <!--nombre_website-->
-     <div class="col-md-1">.col-md-1</div>
-     <div class="col-md-1">.col-md-1</div>
-     <div class="col-md-1">.col-md-1</div>
-     <div class="col-md-1">.col-md-1</div>
-     <div class="col-md-1">.col-md-1</div>  <!--especificar un col-xs-2 para la etiqueta del menu que se va a formar de todas las etiquetas del menu de navegacion-->
-     <div class="col-md-1">.col-md-1</div>
-     <div class="col-md-1">.col-md-1</div>
-     <div class="col-md-1">.col-md-1 .col-xs-3</div> <!--buscar-->
-     <div class="col-md-1">.col-md-1 .col-xs-2</div> <!--login-->
-     <div class="col-md-1">.col-md-1 .col-xs-2</div> <!--signup -->
+     <div class="col-md-2"></div>  <!--nombre_website-->
+     <div class="col-md-1"></div>
+     <div class="col-md-1"></div>
+     <div class="col-md-1"></div>
+     <div class="col-md-1"></div>
+     <div class="col-md-1"></div>  <!--especificar un col-xs-2 para la etiqueta del menu que se va a formar de todas las etiquetas del menu de navegacion-->
+     <div class="col-md-1"></div>
+     <div class="col-md-1"></div>
+     <div class="col-md-1"></div> <!--buscar-->
+     <div class="col-md-1"></div> <!--login-->
+     <div class="col-md-1"></div> <!--signup -->
    </div>
    <div class="row">
-     <div class="col-md-12">.col-md-12</div>
+     <div class="col-md-12"></div>
    </div>
    <div class="row">
-     <div class="col-md-3">.col-md-3</div>
-     <div class="col-md-6">.col-md-6</div>
-     <div class="col-md-3">.col-md-3</div>
+     <div class="col-md-3"></div>
+     <div class="col-md-6"></div>
+     <div class="col-md-3"></div>
    </div>
    <div class="row">                                              <!--footer-->
-     <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+     <div class="col-md-4 offset-md-4"></div>
    </div>
  </div>
-
-  <p> Contenido relacionado </p>
-<form action="datos.php" method="get">
-  Username: <input type="text" name="usuario">
-  Passwd: <input type="password" name="contraseña" >
-  Log: <input type="submit" name="entrar" >
-  Reset: <input type="reset" name="borrar" >
-</form>
-
-<footer class="parte-baja">
-
-  <p>
-    Contacto:<a href="#" class="fa fa-facebook"></a>        <a href="#" class="fa fa-twitter"></a>
-  </p>
-</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

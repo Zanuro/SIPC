@@ -21,7 +21,7 @@
 .navbar-collapse{ justify-content: flex-end;}
 
 .header{
-  background-image: url('https://dtqnv8in03d1n.cloudfront.net/wp-content/uploads/2016/09/best-programming-habits-to-have.jpg');
+  background-image: url('https://www.jamesgmartin.center/wp-content/uploads/2017/09/Fotolia_169539793_Subscription_Monthly_M-1200x840.jpg');
   background-attachment: scroll;
   background-size:cover;
   top:2em;
@@ -31,14 +31,16 @@
   opacity: 0.9;
 }
 .titulo {
-  position: fixed;
-  top: 10%;
+  position: relative;
+  bottom: -5em;
   color:#FF6202;
   margin: auto;
 }
 .titulo h1{
+  position: relative;
   text-align: center;
   letter-spacing: 3px;
+  color:#EDCA36;
   /* text-shadow: 3px 3px blue; */
   font-family: 'Black Han Sans', sans-serif;
   font-size: 3.5em;
@@ -48,30 +50,75 @@
   text-align: center;
   position: relative;
   font-family: "Black Han Sans", sans-serif;
-  font-size: 2em;
+  font-size: 2.5em;
+  color:#00D64D;
+  font-weight: bolder;
 }
-.titulo p{
+.titulo h3{
   text-align:center;
   position: relative;
-  bottom: -3em;
+  bottom:-2em;
   font-family: 'Black Han Sans', sans-serif;
-  font-size: 2em;
-  color: #FF0000;
+  font-size: 2.5em;
+  color: #00D64D;
+  font-weight: bolder;
 }
 
 .imag{
   margin: 10px;
   border-radius: 20px;
 }
+.uno{
+  /* background-color: #D2D6B9; */
+  /* height:300px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  /* background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/programming-languages-to-learn-for-wordpress-featured-image.png'); */
+}
+.uno h1{
+  text-align: left;
+  position: relative;
+  bottom:-10px;
+}
 
-p {
-  color: green;
-  text-align: center;
+.uno button{
+  position: relative;
+  top:-105px;
+  right:-870px;
+}
+.dos{
+    /* background-color: #D2D6B9; */
+  /* height:300px; */
+}
+.imagg{
+  position: relative;
+  top:-150px;
+  right:-200px;
 }
 img {
     height: 100px;
     width: 100px;
     background-color: lightblue;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height:80vh;
+}
+.footer{
+  height: 80px;
+  flex-shrink: 0;
+  background-color: DarkBlue;
+}
+
+footer{
+    position: fixed;
+    height: 30px;
+    background-color: black;
+    bottom: 0px;
+    max-width: 100%;
+    margin-bottom: 0px;
 }
 
 .parte-baja{
@@ -173,14 +220,21 @@ img {
   letter-spacing: 1.1px;
 }
 
-body,
-html {
-  width: 100%;
-  height: 100%;
-  background: #DAC399;
-  font-family: "Gilda-Display", serif;
-}
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  /* background: #DAC399;
+  font-family: "Gilda-Display", serif; */
+}
+footer{
+  position: fixed;
+  height: 150px;
+  bottom: 0;
+  width: 100%;
+
+}
 .naveg {
   display: flex;
   justify-content: center;
