@@ -69,24 +69,6 @@ function draw(){
   let tres = map(hora%12,0,12,0,360);
   arc(0,0,220,220,0,tres);
 
-
-  // stroke(255,248,244);
-  // line(0,-100,0,100);
-  // stroke(255,248,244);
-  // line(100,0,-100,0);
-  // stroke(81,245,229);
-  // point(0,0);
-  // push();
-  // textSize(12);
-  // textAlign(CENTER,CENTER);
-  // translate(0,0);
-  // rotate(90);
-  // stroke(255);
-  // strokeWeight(1);
-  // fill(0,102,153);
-  // text('3',85,0);
-  // pop();
-
   push();
   rotate(uno);
   stroke(150,150,180);
@@ -109,7 +91,6 @@ function draw(){
   point(0,0);
 
 }
-
 
 // ejercicios ,etc parte xml xsl ya que son datos estaticos
 // ranking no es posible ya que tiene que ser dinamico
