@@ -1,7 +1,6 @@
-
 .navbar{
-  background: #5F75FF;}
-}
+  background: #20c997;
+}1
 
 .nav-link{
   margin-right:2em;}
@@ -67,6 +66,7 @@
 .imag{
   margin: 10px;
   border-radius: 20px;
+  background:
 }
 .uno{
   /* background-color: #D2D6B9; */
@@ -101,26 +101,11 @@ img {
     background-color: lightblue;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
-  height:80vh;
-}
-.footer{
-  height: 80px;
-  flex-shrink: 0;
-  background-color: DarkBlue;
-}
+.page-footer{
+  position: relative;
 
-footer{
-    position: fixed;
-    height: 30px;
-    background-color: black;
-    bottom: 0px;
-    max-width: 100%;
-    margin-bottom: 0px;
+  background-color: DarkCyan;
 }
-
 .parte-baja{
   position: fixed;
   bottom: 0;
@@ -146,7 +131,6 @@ footer{
 /* .active {
   padding-right: 70px;
   align-items: center;
-
 } */
 
 .reloj{

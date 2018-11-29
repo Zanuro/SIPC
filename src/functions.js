@@ -1,4 +1,3 @@
-
 function comp_correo(email){
   var filtro = /^([a-zA-Z0-9]{1,})+([/$!_-]{0,3})+([a-zA-Z0-9]{1,})
   +\@(([a-zA-Z]{2,20})+([_-]{0,1})+([a-zA-Z]{1,})+\.)+([a-zA-Z]{2,15})/;
