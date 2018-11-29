@@ -29,11 +29,25 @@
        <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
        <li class="nav-item">
-         <div class="popup" onclick="myFunction()" >Registrarse
-           <span class="popuptext" id="myPopup">
-             Popup text...
-           </span>
-         </div>
+         <a class="nav-link" href="#container">Registrarse</a>
+              <div id="container">
+              <div class="popup">
+                <a href="#">
+                  <img  src="https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/cross-512.png" style="width:25px;height:25px;border-radius:80px;" />
+                </a>
+              </div>
+              <p> Login </p>
+                <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com">
+                <input class="passwd" type="password" required="" name="contraseña" placeholder="Passwd">
+                <button class="buton registro">Login</button>
+              <p class="registrate">Registrarse</p>
+              <form action="datos.php" method="get">
+                Username: <input type="text" name="usuario">
+                Passwd: <input type="password" name="contraseña">
+                Login: <input type="submit" name="entrar">
+                Reset: <input type="reset" name="borrar">
+              </form>
+            </div>
        </li>
       </ul>
    <form class="form-inline my-2">
