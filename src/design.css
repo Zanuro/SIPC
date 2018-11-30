@@ -110,10 +110,62 @@ img {
   height: 350px;
   width:100%;
 }
+#colr{
+  width:100%;
+}
+#colr button{
+  position: relative;
+  bottom:410px;
+  left:410px;
+  font-size: 20px;
+}
+#colr p{
+  position: relative;
+  bottom:400px;
+  left:300px;
+  textSize:20px;
+}
+
+.mainpage{
+  font-family:'Slabo 27px', serif;
+
+}
 #rankstar{
   position: relative;
   bottom:90px;
-  left:370px;
+  left:320px;
+}
+#foro a{
+  bottom:150px
+  left:150px;
+  font-size: 20px;
+}
+#foro p{
+  position: relative;
+  left:480px;
+  top:20px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-family: 'Slabo 27px', serif;
+  font-size: 22px;
+  color: grey;
+}
+#foro button{
+  position: relative;
+  bottom:190px;
+  left:550px;
+  font-size:20px;
+}
+#foro img{
+  position: relative;
+  bottom:95px;
+  right:160px;
+
+}
+#espacio{
+  width:100%;
+  height:80px;
 }
 #arrow1{
   border-left: 2px solid grey;
@@ -154,7 +206,28 @@ img {
   top:50px;
   left:100px;
 }
+#colr h1{
+  font-family: 'Slabo 27px', serif;
+  font-size: 40px;
+}
+.textr{
+  position: relative;
+  bottom:410px;
+  left:370px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
 
+#foro{
+  width:100%;
+  height: 250px;
+}
+#foro h1{
+  font-size: 30px;
+}
 .page-footer{
   position: relative;
   background-color:#20c997;

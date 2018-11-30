@@ -11,6 +11,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="logo.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   <style> body {padding: 0; margin: 0;} </style>
   <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
   <script>
@@ -139,28 +140,55 @@
     </div>
   </div>
   <div id="ranking"class="row">
-    <div class="col-lg-6 offset-lg-2">
+    <div id="colr"class="col-lg-6 offset-lg-2">
       <h1> Sistema de Ranking! </h1>
       <ul id="puntos"class="points">
         <a id="rankstar" class="btn-floating btn-li">
         <i class="fa fa-star"></i></a>
         <div id="arrow1"class="arrow"></div>
         <div id="arrow2"class="arrow"></div>
+        <div class="arrow-up"></div>
+        <div class="arrow-right"></div>
         <div id="rank1" class="btn btn-info btn-lg btn-custom-lg" >5 xor</div>
         <div id="rank2" class="btn btn-info btn-lg btn-custom-lg" >4 xor</div>
         <div id="rank3" class="btn btn-info btn-lg btn-custom-lg" >3 xor</div>
         <div id="rank4" class="btn btn-info btn-lg btn-custom-lg" >2 xor</div>
         <div id="rank5" class="btn btn-info btn-lg btn-custom-lg" >1 xor</div>
       </ul>
-      <!-- <p id="textr">
-          Los retos se clasifican en funcion de la dificultad aproximada.
-          A medida que vas completado los retos vas ganando xor
-          desbloqueando retos mas complicados y divertidos.Arriesgate en
-          enfrentarte a unos desafios formidables.
-      </p> -->
+      <button class="btn btn-outline-success" type="submit">See Ranking</button>
+      <div class="textr">
+      <p> Los retos se clasifican en funcion de la dificultad aproximada.<br>
+          A medida que vas completado los retos vas ganando xor<br>
+          desbloqueando retos mas complicados y divertidos.<br>
+          Arriesgate en enfrentarte a unos desafios formidables.
+      </p>
     </div>
   </div>
   <hr>
+</div>
+<div class="row">
+  <div class="col-lg-2 offset-lg-2">
+    <h1> </h1>
+  </div>
+</div>
+<div id="espacio"class="row">
+  <div class="col-lg-6 offset-lg-2">
+</div>
+</div>
+<div id="foro"class="row">
+  <div class="col-lg-6 offset-lg-2">
+  <h1> Adquiere sabiduria de nuestra comunidad! </h1>
+  <p> Discute los retos con los demas, mejores soluciones,<br>
+      mejores practicas y algoritmos innovadores de nuestra<br>
+      comunidad.</p>
+  <a id="intel" class="btn-floating btn-li">
+  <i class="fab fa-brain"></i></a>
+  <button class="btn btn-outline-success" type="submit">Forum</button>
+  <a href="forum.html">
+  <img src="https://forum.breastcancercare.org.uk/html/assets/Forum_banner_May_2016.png?7116413E5D721D914CEEAC9D2CB0DD8D" style="width:400px;height:100px;border-radius:30px;" alt="logo">
+  </a>
+    </div>
+  </div>
 </div>
 </div>
 <footer class="page-footer">
