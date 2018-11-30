@@ -25,7 +25,7 @@
   background-size:cover;
   top:2em;
   width:120em;
-  height:25em;
+  height:28em;
   z-index: -2;
   opacity: 0.9;
 }
@@ -39,6 +39,7 @@
   position: relative;
   text-align: center;
   letter-spacing: 3px;
+  top:50px;
   color:#EDCA36;
   /* text-shadow: 3px 3px blue; */
   font-family: 'Black Han Sans', sans-serif;
@@ -50,6 +51,7 @@
   position: relative;
   font-family: "Black Han Sans", sans-serif;
   font-size: 2.5em;
+  top:50px;
   color:#00D64D;
   font-weight: bolder;
 }
@@ -59,6 +61,7 @@
   bottom:-1em;
   font-family: 'Black Han Sans', sans-serif;
   font-size: 2.5em;
+  top:50px;
   color: #00D64D;
   font-weight: bolder;
 }
@@ -66,7 +69,6 @@
 .imag{
   margin: 10px;
   border-radius: 20px;
-  background:
 }
 .uno{
   /* background-color: #D2D6B9; */
@@ -106,6 +108,75 @@ img {
   left:200px;
 
 } */
+#lock{
+  position: relative;
+  font-size:25px;
+  right:70px;
+}
+.header-title h1{
+  position: relative;
+  bottom:30px;
+  left:50px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 50px;
+  color: grey;
+}
+.header-title p{
+  position: relative;
+  bottom:30px;
+  left:0px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+.usuario{
+  position: relative;
+  bottom:30px;
+  left:0px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+.panell{
+  position: relative;
+  bottom:30px;
+  left:-8px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+.remember input{
+  position: relative;
+  bottom:22px;
+  left:240px;
+  color:grey;
+  width:25px;
+  height:30px;
+}
+.remember p{
+  position: relative;
+  bottom:60px;
+  left:140px;
+  text-align:center;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color:grey;
+}
+#loginu{
+  position:relative;
+  bottom:30px;
+  left:248px;
+  font-size:20px;
+}
+
 #ranking{
   height: 350px;
   width:100%;
@@ -154,7 +225,7 @@ img {
 #foro button{
   position: relative;
   bottom:190px;
-  left:550px;
+  left:500px;
   font-size:20px;
 }
 #foro img{
@@ -283,9 +354,34 @@ img {
   left:25px;
 
 }
-.fa fa-twitter{
-  width: 40px !important;
-  height: 40px !important;
+
+#trofeo{
+  font-size: 30px;
+  position: relative;
+  bottom:150px;
+  left:300px;
+}
+#concurso p{
+  position: relative;
+  bottom:100px;
+  left:480px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color:grey;
+}
+#concurso button{
+  position: relative;
+  bottom:130px;
+  left:330px;
+  font-size: 20px;
+}
+#concurso img{
+  position: relative;
+  top:50px;
+  right:180px;
 }
 .fa{
   font-style: normal;
@@ -327,15 +423,6 @@ img {
   border-radius: 15px;
 
 }
-
-.pestanas-menu{
-
-
-}
-/* .active {
-  padding-right: 70px;
-  align-items: center;
-} */
 
 .reloj{
   width: 35px;
@@ -395,9 +482,6 @@ img {
 }
 
 @import url("'https://fonts.googleapis.com/css?family=Gilda+Display'");
-/* html {
-  box-sizing: border-box;
-} */
 
 *,
 *:before,
@@ -466,4 +550,54 @@ footer{
   0% {
     background-position-x: 390px;
   }
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: relative;
+    visibility: hidden;
+    display: none;
+    background-color: #20c997;
+}
+#container:target {
+    position:absolute;
+    visibility: visible;
+    animation: fadeIn 0.8s;
+    width: 25%;
+    height: 300%;
+    text-align: center;
+    border-radius: 25%;
+    padding: 10px 0;
+    border: 2px solid #70FF8F;
+    z-index: 1;
+    top:70%;
+    left: 58%;
+    margin-left: -20%;
+    margin-top: 10em;
+    display: block;
+    color :##70FF8F;
+    background-color: #70FF8F;
+}
+.popup {
+    position: relative;
+    margin: 0 auto;
+    top: 35%;
+    color:#70FF8F;
+    right:5%;
+    cursor: pointer;
+}
+div.popup img {
+  margin-block-start: -9em;
+  margin-block-end: 0em;
+  margin-inline-start: 90%;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
 }
