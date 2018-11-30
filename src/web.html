@@ -12,6 +12,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="logo.ico"/>
   <style> body {padding: 0; margin: 0;} </style>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCcBh4ClX8xQr73MGJtPnIqcfUx8K52XoM",
+      authDomain: "syslearn-13b2c.firebaseapp.com",
+      databaseURL: "https://syslearn-13b2c.firebaseio.com",
+      projectId: "syslearn-13b2c",
+      storageBucket: "syslearn-13b2c.appspot.com",
+      messagingSenderId: "224058327958"
+    };
+    firebase.initializeApp(config);
+  </script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-functions.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.js"></script>
@@ -118,24 +138,76 @@
       <hr>
     </div>
   </div>
+  <div id="ranking"class="row">
+    <div class="col-lg-6 offset-lg-2">
+      <h1> Sistema de Ranking! </h1>
+      <ul id="puntos"class="points">
+        <a id="rankstar" class="btn-floating btn-li">
+        <i class="fa fa-star"></i></a>
+        <div id="arrow1"class="arrow"></div>
+        <div id="arrow2"class="arrow"></div>
+        <div id="rank1" class="btn btn-info btn-lg btn-custom-lg" >5 xor</div>
+        <div id="rank2" class="btn btn-info btn-lg btn-custom-lg" >4 xor</div>
+        <div id="rank3" class="btn btn-info btn-lg btn-custom-lg" >3 xor</div>
+        <div id="rank4" class="btn btn-info btn-lg btn-custom-lg" >2 xor</div>
+        <div id="rank5" class="btn btn-info btn-lg btn-custom-lg" >1 xor</div>
+      </ul>
+      <!-- <p id="textr">
+          Los retos se clasifican en funcion de la dificultad aproximada.
+          A medida que vas completado los retos vas ganando xor
+          desbloqueando retos mas complicados y divertidos.Arriesgate en
+          enfrentarte a unos desafios formidables.
+      </p> -->
+    </div>
+  </div>
+  <hr>
 </div>
 </div>
-<footer class="page-footer dark-cyan">
+<footer class="page-footer">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-2">
-        <h5> About us! </h5>
-        <p> Esta pagina se ha creado como proposito <br>
-            principal para la asignatura de SIPC <br>
-            ..
-        </p>
+      <div id="about" class="col-lg-3">
+        <h1> About us! </h1>
+        <h2> Ingenieria Informatica ULL </h2>
+         <p>Este sitio web es para todas aquellas
+            personas apasionadas del mundo de la programacion<br>
+            y sus divertidas partes(o menos divertidas).<br><br></p>
+          <h3>&copy Sys-Learn 2018</h3>
+       <nav class="nav-item"><a class="nav-link" href="term.html" target="_blank">Terms of Service</a></nav>
+
       </div>
-        <div style="border-left:1px solid #8C857F;height:150px"></div>
-      <div class="col-lg-8">
+        <!-- <div style="border-left:1px solid #8C857F;height:150px"></div> -->
+      <div id="social"class="col-lg-6" style="font-size: 30px;">
+        <h1> Social media </h1>
         <ul class="list-unstyled list-inline text-center">
-          
-        <a href="#" class="fa fa-facebook white-text"></a>
-        <a href="https://twitter.com/ComanescuVlad" target="_blank" class="fa fa-twitter white-text"></a>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-tw" href="https://twitter.com/ComanescuVlad" target="_blank">
+              <i class="fa fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-fa" href="https://facebook.com" target="_blank">
+              <i class="fa fa-facebook"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-in" href="https://instagram.com" target="_blank">
+              <i class="fa fa-instagram"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-li" href="https://www.linkedin.com/in/vlad-comanescu-8600b8131" target="_blank">
+              <i class="fa fa-linkedin"> </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div style="border-left:1px solid #8C857F;height:150px"></div> -->
+      <div id="ubic" class="col-lg-2">
+        <h1> Ubicacion </h1>
+        <p>Sta.Cruz de Tenerife</p>
+        <a class="btn-floating btn-li" href="https://bit.ly/2zxCP8J" target="_blank">
+        <i class="fa fa-map-marker" style="font-size:24px"></i>
       </div>
     </div>
   </div>
@@ -144,18 +216,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCI7HqBebjxlxbHvMXwVU4SkbeO_LGI_7w",
-    authDomain: "sys-learn.firebaseapp.com",
-    databaseURL: "https://sys-learn.firebaseio.com",
-    projectId: "sys-learn",
-    storageBucket: "sys-learn.appspot.com",
-    messagingSenderId: "197709160387"
-  };
-  firebase.initializeApp(config);
-</script>
 
 </html>
