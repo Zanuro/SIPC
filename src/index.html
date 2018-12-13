@@ -72,7 +72,12 @@
                    </div>
                    </form>
                    </div>
-                 </div>
+                   </div>
+                   <div id="usuario_ej" class="usuario_logged">
+                     <h1> Bienvenido a nuestro web-site </h1>
+                     <p id="user_logged"> Actualmente te encuentras logeado en nuestro sitio. </p>
+                     <button id="logout"class="btn btn-outline-success" type="button" onclick="logout()">Logout</button>
+
              <!-- <p> Login </p>
             <form action="datos.php" method="get">
                <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com">
@@ -84,13 +89,8 @@
            </div>
     </form>
   </div>
- </nav>
+ </nav> <!--informacion google maps,correo, -->
 <body>
-  <div id="usuario_ej" class="usuario_logged">
-    <h1> Bienvenido a nuestro web-site </h1>
-    <p> Actualmente te encuentras logeado en nuestro sitio. </p>
-    <button id="logout"class="btn btn-outline-success" type="button" onclick="logout()">Logout</button>
-  </div>
   <header class="header">
     <div class="container-fluid">
       <div class="titulo">
@@ -121,7 +121,8 @@
         <p> Login </p>
         <form action="datos.php" method="get">
         <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com" id="text_field">
-        <input class="passwd" type="password" required name="contraseña" placeholder="Passwd">
+        <input class="passwd" type="password" required name="contraseña" placeholder="Passwd" id="pass_field">
+        <button id="submit_btn" onclick="registro()">Entrar</button>
         <input type="submit" name="registrar">
         <input type="reset" name="reseteo">
         <!-- <p class="registrate">Registrarse</p> -->
@@ -289,25 +290,25 @@
     </div>
   </div>
 </footer>
-<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-firestore.js"></script>
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDoiXCQ2KC5-_sXna0YpjRZC_rD0BMFP1A",
-    authDomain: "syslearn-e2f6e.firebaseapp.com",
-    databaseURL: "https://syslearn-e2f6e.firebaseio.com",
-    projectId: "syslearn-e2f6e",
-    storageBucket: "syslearn-e2f6e.appspot.com",
-    messagingSenderId: "990558668191"
+    apiKey: "AIzaSyCcBh4ClX8xQr73MGJtPnIqcfUx8K52XoM",
+    authDomain: "syslearn-13b2c.firebaseapp.com",
+    databaseURL: "https://syslearn-13b2c.firebaseio.com",
+    projectId: "syslearn-13b2c",
+    storageBucket: "syslearn-13b2c.appspot.com",
+    messagingSenderId: "224058327958"
   };
   firebase.initializeApp(config);
 </script>
 <script src="functions.js"> </script>
-  <!--
+  <!--<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+
   <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-messaging.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-functions.js"></script>
 
