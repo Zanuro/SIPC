@@ -1,3 +1,4 @@
+
  .navbar{
   background: #20c997;
 }
@@ -20,11 +21,8 @@
 .navbar-collapse{ justify-content: flex-end;}
 
 .header{
-  background-image: url('https://www.jamesgmartin.center/wp-content/uploads/2017/09/Fotolia_169539793_Subscription_Monthly_M-1200x840.jpg');
-  background-attachment: scroll;
-  background-size:cover;
+
   top:2em;
-  width:120em;
   height:28em;
   z-index: -2;
   opacity: 0.9;
@@ -32,7 +30,7 @@
 .titulo {
   position: relative;
   bottom: -5em;
-  color:#FF6202;
+  color:#000000;
   margin: auto;
 }
 .titulo h1{
@@ -71,6 +69,19 @@
   font-weight: bolder;
 }
 
+.body-main{
+  background-image: url('http://gda.itesm.mx/sitios/imagesCont/computer-programming_bcba943585.jpeg');
+  background-size:contain;
+
+
+
+marg
+
+}
+.body.center{
+  background-color: #FFFFFF ;
+
+}
 .imag{
   margin: 10px;
   border-radius: 20px;
@@ -90,7 +101,7 @@
   text-align:center;
   position: relative;
   bottom:-80px;
-  left:500px;
+  left:300px;
   text-align: left;
   letter-spacing: 2px;
   font-family: 'Slabo 27px', serif;
@@ -112,7 +123,7 @@
 }
 #uno img{
   position:relative;
-  width:300px;
+  width:200px;
   height:200px;
   bottom:100px;
   border-radius: 20%;
@@ -206,7 +217,7 @@ img {
 }
 
 #ranking{
-  height: 350px;
+  height: 380px;
   width:100%;
 }
 #colr{
@@ -221,12 +232,16 @@ img {
 #colr p{
   position: relative;
   bottom:400px;
-  left:300px;
+  left:200px;
   textSize:20px;
 }
 
 .mainpage{
   font-family:'Slabo 27px', serif;
+  margin-left:50px;
+  margin-right:50px;
+  background-position:relative;
+  background-color:#FFFFFF
 
 }
 #rankstar{
@@ -236,15 +251,15 @@ img {
 }
 #foro a{
   bottom:150px
-  left:150px;
+  left:100px;
   font-size: 20px;
 }
 #foro p{
   position: relative;
-  left:480px;
+  left:400px;
   top:20px;
   text-align: left;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.5;
   font-family: 'Slabo 27px', serif;
   font-size: 22px;
@@ -252,14 +267,14 @@ img {
 }
 #foro button{
   position: relative;
-  bottom:190px;
+  bottom:200px;
   left:500px;
   font-size:20px;
 }
 #foro img{
-  position: relative;
-  bottom:95px;
-  right:160px;
+    position: relative;
+  bottom:80px;
+  right:200px;
 
 }
 #espacio{
@@ -303,7 +318,7 @@ img {
   color: grey;
   position: relative;
   top:50px;
-  left:100px;
+  left:50px;
 }
 #colr h1{
   font-family: 'Slabo 27px', serif;
@@ -322,7 +337,7 @@ img {
 
 #foro{
   width:100%;
-  height: 250px;
+  height: 350px;
 }
 #foro h1{
   font-size: 30px;
@@ -331,6 +346,7 @@ img {
   position: relative;
   background-color:#20c997;
   height: 100%;
+  margin-top: 100px;
 }
 #about h1{
   color:white;
@@ -392,7 +408,7 @@ img {
 #concurso p{
   position: relative;
   bottom:100px;
-  left:480px;
+  left:380px;
   text-align: left;
   letter-spacing: 2px;
   line-height: 1.8;
