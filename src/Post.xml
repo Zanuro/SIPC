@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl"  href="post.xsl" ?>
+<Desafios>
+<Challenge>
+  <sDate>27-03-06</sDate><!-->Startdate Enddate<-->
+  <eDate>31-12-25</eDate>
+  <Name>"Desafio C++"</Name>
+  <Text>"Pequeño cuestionario de c++"</Text>
+  <Difficulty>"Facil"</Difficulty>
+  <Successrate>95</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>19-06-10</sDate>
+  <eDate>31-12-18</eDate>
+  <Name>"Desafio Python"</Name>
+  <Text>"Pequeño desafio para aprender a manejar los comandos de python"</Text>
+  <Difficulty>"Mediana"</Difficulty>
+  <Successrate>65</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>19-05-15</sDate>
+  <eDate>31-12-20</eDate>
+  <Name>"Desafio Objetos C++"</Name>
+  <Text>"Orientado a Objetos"</Text>
+  <Difficulty>"Mediana"</Difficulty>
+  <Successrate>35</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>22-01-08</sDate>
+  <eDate>31-12-20</eDate>
+  <Name>"Desafio MIPS I"</Name>
+  <Text>"Aprender a programar en ensamblador"</Text>
+  <Difficulty>"Facil"</Difficulty>
+  <Successrate>80</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>07-11-11</sDate>
+  <eDate>31-12-25</eDate>
+  <Name>"Desafio MIPS II"</Name>
+  <Text>"Ensamblador algo avanzado"</Text>
+  <Difficulty>"Mediana"</Difficulty>
+  <Successrate>59</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>19-09-12</sDate>
+  <eDate>31-12-25</eDate>
+  <Name>"Desafio MIPS III"</Name>
+  <Text>"Desafio definitivo MIPS"</Text>
+  <Difficulty>"Dificil"</Difficulty>
+  <Successrate>17</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>20-07-16</sDate>
+  <eDate>31-12-25</eDate>
+  <Name>"Desafio Avanzado C++"</Name>
+  <Text>"Lo mas avanzado de c++ orientado a objetos"</Text>
+  <Difficulty>"Dificil"</Difficulty>
+  <Successrate>09</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>20-07-16</sDate>
+  <eDate>31-12-25</eDate>
+  <Name>"Comandos Linux I"</Name>
+  <Text>"Lo mas basico de comandos de linux"</Text>
+  <Difficulty>"Facil"</Difficulty>
+  <Successrate>91</Successrate>
+</Challenge>
+<Challenge>
+  <sDate>20-07-16</sDate>
+  <eDate>31-12-25</eDate>
+  <Name>"Comandos Linux II"</Name>
+  <Text>"Pipes y redirecciones de comandos"</Text>
+  <Difficulty>"Facil"</Difficulty>
+  <Successrate>74</Successrate>
+</Challenge>
+</Desafios>

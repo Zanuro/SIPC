@@ -21,23 +21,28 @@
 .navbar-collapse{ justify-content: flex-end;}
 
 .header{
-
+  background-color: rgba(0,0,0, 0.4);
+  border: 1px solid #081507;
+  position: static;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(53%, 4%);
+  width: 50%;
+  padding: 20px;
   top:2em;
-  height:28em;
   z-index: -2;
   opacity: 0.9;
+  margin-block-end: 10px;
 }
 .titulo {
-  position: relative;
+  text-align: center;
   bottom: -5em;
   color:#000000;
   margin: auto;
 }
 .titulo h1{
-  position: relative;
   text-align: center;
   letter-spacing: 3px;
-  top:50px;
   color:#EDCA36;
   text-align: center;
   letter-spacing: 3px;
@@ -47,24 +52,17 @@
 }
 .titulo h2{
   text-align: center;
-  position: relative;
-  text-align: center;
   letter-spacing: 3px;
   font-family: 'Slabo 27px', serif;
   font-size: 2.5em;
-  top:50px;
   color:#00D64D;
   font-weight: bolder;
 }
 .titulo h3{
   text-align:center;
-  position: relative;
-  bottom:-1em;
-  text-align: center;
   letter-spacing: 3px;
   font-family: 'Slabo 27px', serif;
   font-size: 2.5em;
-  top:50px;
   color: #00D64D;
   font-weight: bolder;
 }
@@ -72,10 +70,7 @@
 .body-main{
   background-image: url('http://gda.itesm.mx/sitios/imagesCont/computer-programming_bcba943585.jpeg');
   background-size:contain;
-
-
-
-marg
+  margin-block-start: 100px;
 
 }
 .body.center{
@@ -123,10 +118,10 @@ marg
 }
 #uno img{
   position:relative;
-  width:200px;
+  width:400px;
   height:200px;
   bottom:100px;
-  border-radius: 20%;
+  border-radius: 10%;
   right:180px;
 
 }
@@ -241,7 +236,7 @@ img {
   margin-left:50px;
   margin-right:50px;
   background-position:relative;
-  background-color:#FFFFFF;
+  background-color:#dbe4dde6;
   border-radius: 10px;
 
 }
