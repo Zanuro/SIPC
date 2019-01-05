@@ -82,7 +82,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                <input class="passwd" type="password" required name="contraseña" placeholder="Passwd">
                <input type="submit" name="entrar">
                <input type="reset" name="reseteo">
-
              </form> -->
            </div>
     </form>

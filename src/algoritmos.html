@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<html lang="en"
+<head>
+  <meta http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <title> SysLearn </title>
+  <link rel="stylesheet" type="text/css" href="design.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-ligth fixed-top">
+  <a class = "imag"href="index.html"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
+    <a class="navbar-brand" class="nav-link" href="index.html">Sys-Learn</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class = "navbar-nav mr-6">
+        <!-- <li class="nav-item"><a class="nav-link" href="home">Página principal</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
+        <li class="nav-item"><a class="nav-link" href="retos">Challenges</a></li>
+        <li class="nav-item"><a class="nav-link" href="foro">Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
+        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
+      </ul>
+      <form class="form inline my-2">
+        <input id="busq" class="form-control mr-sm-1" type="search" placeholder="Busqueda" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+        <a href="#container"><button class="btn btn-outline-success" type="button">Login</button></a>
+        <div id="container">
+          <div class="popup">
+            <a href="#">
+              <img  src="https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/cross-512.png" style="width:25px;height:25px;border-radius:80px;" />
+            </a>
+          </div>
+          <div class="container-fluid">
+            <div id="login_ej" class="headerr">
+              <a id="lock" class="btn-floating btn-li">
+                <i class="fa fa-shield"></i></a>
+                <div class="header-title">
+                  <h1>Login</h1>
+                  <p>Introduce los datos de acceso </p>
+                </div>
+              </div>
+              <div class="panel">
+                <form action="datos.php" method="get">
+                  <div class="usuario">
+                    <label class="control-label" for="email">Usuario</label>
+                    <input type="text" required placeholder="usuario@email.com" name="email" id="campo_correo">
+                  </div>
+                  <div class="panell">
+                    <label class="control-label" for="password">Password</label>
+                    <input type="password" required placeholder="*******" name="password" id="campo_pass">
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <div class="remember">
+                        <input name="remember" class="styled" type="checkbox">
+                        <label for="checkbox">
+                          <p>Remember</p>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-lg-1">
+                      <button id="loginu"class="btn btn-outline-success" type="button" onclick="login()">Login</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- <div id="usuario_ej" class="usuario_logged">
+              <h1> Bienvenido a nuestro web-site </h1>
+              <p id="user_logged"> Actualmente te encuentras logeado en nuestro sitio. </p>
+              <button id="logout"class="btn btn-outline-success" type="button" onclick="logout()">Logout</button> -->
+
+              <!-- <p> Login </p>
+              <form action="datos.php" method="get">
+              <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com">
+              <input class="passwd" type="password" required name="contraseña" placeholder="Passwd">
+              <input type="submit" name="entrar">
+              <input type="reset" name="reseteo">
+
+            </form> -->
+          </div>
+        </form>
+      </div>
+    </div>
+    </nav> <!--informacion google maps,correo, -->
+    <body>
+      <header class="header1">
+        <div class="container-fluid">
+          <div class="algoritmos-titulo">
+            <h1> Algoritmia</h1>
+          </div>
+        </div>
+      </header>
+      <div class="mainpage">
+        <div class="container-fluid">
+          <div id="algoritmo-desc"class="row">
+            <div id="algoritmo-desc-a"class="col-lg-8 offset-lg-2">
+              <h1>Aprender diferentes algoritmos!</h1>
+              <p> En esta seccion aprenderas diferentes algoritmos
+                  famosos en el mundo de la informatica.</br>
+                  Estos algoritmos te ayudaran en un futuro proximo,
+                  para entender mejor las estructuras de datos.</br>
+                  Estar expuesto a diferentes técnicas de resolución
+                  de problemas y ver cómo se diseñan los diferentes</br>
+                  algoritmos nos ayuda a enfrentar el siguiente problema
+                  difícil que se nos presenta. Al considerar varios</br>
+                  algoritmos diferentes, podemos comenzar a desarrollar
+                  el reconocimiento de patrones para que, la próxima vez</br>
+                  que surja un problema similar, podamos resolverlo mejor.</br>
+                </p>
+              </div>
+            </div>
+            <hr>
+          <div id="algoritmo-uno"class="row">
+            <div id="algoritmo-a"class="col-lg-8 offset-lg-2">
+              <button type="button" class="btn btn-primary">Algoritmo de Kadane!</button>
+              <p> <span style="color: #0A0A00">Desc:</span></br>
+                El algoritmo de Kadane o el problema del subarray maximo es la tarea de encontrar un subarray contiguo con la suma más grande, dentro de una matriz unidimensional dada A [1 ... n] de números.</br>
+                  Formalmente, la tarea es encontrar los índices tal que la suma es lo más grande posible.Cada número en la matriz de entrada A podría ser positivo, negativo o cero.</br>
+                  <span style="color: #0A0A00">Ejemplo:</span></br>
+                  Para el array de valores [−2, 1, −3, 4, −1, 2, 1, −5, 4], el subarreglo contiguo con la suma más grande es </br>[4, −1, 2, 1] , con suma 6.</br></br>
+                  <span style="color: #0A0A00">Input:</span><span id="innput" style="color: #0045E8">[−2, 1, −3, 4, −1, 2, 1, −5, 4]</span></br></br>
+                  <span style="color: #0A0A00">Output:</span><span id="outpuut" style="color: #0045E8">[4, −1, 2, 1]</span></br></br>
+                  <span style="color: #0A0A00">Dificultad:</span><span style="color: #0045E8">Facil</span></br></br>
+                <span style="color: #0A0A00">Puntos a ganar:</span><span style="color: #0045E8">3 puntos!</span></p></br>
+                <a id="butun" class="btn btn-primary" href="#" role="button">Resolver Algoritmo</a>
+                </div>
+              </div>
+            <hr>
+            <div id="algoritmo-dos"class="row">
+              <div id="algoritmo-b"class="col-lg-8 offset-lg-2">
+                <button type="button" class="btn btn-primary">Quicksort!</button>
+                <p> <span style="color: #0A0A00">Desc:</span></br>
+                  Es un algoritmo de ordenamiento eficiente, que sirve como un método sistemático para colocar los elementos de un array en orden. Quicksort es una ordenación de comparación, lo que significa que puede ordenar elementos de cualquier tipo para los cuales existe una relacion de "menor que". En implementaciones eficientes no es una clasificación estable, lo que significa que no se conserva el orden relativo de los elementos de igual clasificación.
+                </br>
+                    <span style="color: #0A0A00">Ejemplo:</span></br>
+                    Quicksort primero divide una gran matriz en dos sub-arrays más pequeños: los elementos menores y los elementos mayores. Quicksort luego puede ordenar recursivamente los sub-arrays.</br>
+                    Los pasos son:</br>
+                    1.Elige un elemento,llamado pivote.</br>
+                    2.Particion:reordenar los elementos, para que sean o bien mayores que el pivote en la parte izq o mayores en la parte derecha.</br>
+                    3.Aplique recursivamente los pasos anteriores al sub-array de elementos con valores más pequeños y por separado al sub-array de elementos con valores mayores.</br></br>
+                    <img id="logo-quick"src="https://bit.ly/1orO5e9" alt="quicksor" /></br></br>
+
+                    <span style="color: #0A0A00">Input:</span><span id="innput" style="color: #0045E8">[3, 1, 5, 6, 2, 8, 9, 7, 4]</span></br></br>
+                    <span style="color: #0A0A00">Output:</span><span id="outpuut" style="color: #0045E8">[1, 2, 3, 4, 5, 6, 7, 8, 9]</span></br></br>
+                    <span style="color: #0A0A00">Dificultad:</span><span style="color: #0045E8">Facil</span></br></br>
+                    <span style="color: #0A0A00">Puntos a ganar:</span><span style="color: #0045E8">4 puntos!</span></p></br>
+                  <a id="butun" class="btn btn-primary" href="#" role="button">Resolver Algoritmo</a>
+                  </div>
+                </div>
+                  <hr>
+                  <div id="algoritmo-tres"class="row">
+                    <div id="algoritmo-c"class="col-lg-8 offset-lg-2">
+                      <button type="button" class="btn btn-primary">Algoritmo de Dijkstra!</button>
+                      <p> <span style="color: #0A0A00">Desc:</span></br>
+                        El algoritmo de Dijkstra es un algoritmo para encontrar las rutas más cortas entre nodos de un grafo,que puede representar, por ejemplo, redes de carreteras.Para un nodo fuente dado en un grafo, el algoritmo encuentra la ruta más corta entre ese nodo y todos los demás.También se puede usar para encontrar las rutas más cortas desde un solo nodo a un solo nodo de destino deteniendo el algoritmo una vez que se ha determinado la ruta más corta al nodo de destino.
+                      </br>
+                          <span style="color: #0A0A00">Ejemplo:</span></br>
+                          Partimos del nodo inicial.El algoritmo de Dijkstra asignará algunos valores de distancia iniciales e intentará mejorarlos paso a paso.</br>
+                          Los pasos son:</br>
+                          1.Marcar todos los nodos no visitados. Cree un conjunto de todos los nodos no visitados llamado conjunto no visitado.</br>
+                          2.Asigne a cada nodo un valor de distancia tentativa: establézcalo en cero para nuestro nodo inicial e infinito para todos los demás nodos. Establecer el nodo inicial como actual.</br>
+                          3.Para el nodo actual, considere a todos sus vecinos no visitados y calcule sus distancias tentativas a través del nodo actual.</br>
+                          4.Cuando hayamos terminado de considerar a todos los vecinos no visitados del nodo actual, marque el nodo actual como visitado y elimínelo del conjunto no visitado. Un nodo visitado nunca será verificado de nuevo.</br>
+                          5.Si el nodo de destino se ha marcado como visitado o si la distancia tentativa más pequeña entre los nodos en el conjunto no visitado es infinita ,luego se detienen. El algoritmo ha terminado.</br>
+                          6.De lo contrario, seleccione el nodo no visitado que está marcado con la distancia tentativa más pequeña, configúrelo como el nuevo "nodo actual" y vuelva al paso 3.</br></br>
+                          <img id="logo-quick"src="https://bit.ly/2ATBWtv" alt="quicksor" /></br></br>
+                          <span style="color: #0A0A00">Demonstracion grafica:</span></br></br>
+                          <img id="logo-quick"src="https://bit.ly/2BYG9dI" alt="quicksor" /></br></br>
+                          <span style="color: #0A0A00">Dificultad:</span><span style="color: #0045E8">Media</span></br></br>
+                        <span style="color: #0A0A00">Puntos a ganar:</span><span style="color: #0045E8">6 puntos!</span></p></br>
+                        <a id="butun" class="btn btn-primary" href="#" role="button">Resolver Algoritmo</a>
+                        </div>
+                      </div>
+                      <hr>
+                      <div id="algoritmo-cuatro"class="row">
+                        <div id="algoritmo-d"class="col-lg-8 offset-lg-2">
+                          <button type="button" class="btn btn-primary">Algoritmo de Busqueda Binaria!</button>
+                          <p> <span style="color: #0A0A00">Desc:</span></br>
+                            Es un algoritmo de búsqueda que encuentra la posición de un valor objetivo dentro de un array ordenado.La búsqueda binaria compara el valor objetivo con el elemento central de la matriz. Si no son iguales, la mitad en la que el objetivo no puede mentir se elimina y la búsqueda continúa en la mitad restante, tomando nuevamente el elemento central para comparar con el valor objetivo, y repitiendo esto hasta que se encuentre el valor objetivo</br>
+                              <span style="color: #0A0A00">Ejemplo:</span></br>
+                              La búsqueda binaria funciona en arreglos ordenados. La búsqueda binaria comienza comparando el elemento central de la matriz con el valor objetivo. Si el valor objetivo coincide con el elemento central, se devuelve su posición en la matriz. Si el valor objetivo es menor que el elemento central, la búsqueda continúa en la mitad inferior de la matriz. Si el valor objetivo es mayor que el elemento central, la búsqueda continúa en la mitad superior de la matriz. Al hacer esto, el algoritmo elimina la mitad en la que el valor objetivo no puede estar en cada iteración.</br></br>
+                              Los pasos son:</br>
+                              1.Indice L a 0 y R a n-1.</br>
+                              2.Si L es mayor que R la busqueda termina.</br>
+                              3.Coger un pivote M que es igual a (L+R)/2.</br>
+                              4.Si el elemento del indice M del array es menor que el valor que se busca(T),L=M+1 y paso 2.</br>
+                              5.Si el elemento del indice M del array es mayor que el valor que se busca(T),R=M-1 y paso 2.</br>
+                              6.Si el elemento del indice M del array es igual a T entonces finaliza la busqueda y se devuelve M.</br></br>
+                              <span style="color: #0A0A00">Ejemplo:</span></br></br>
+                              <img id="logo-quick"src="https://bit.ly/2CQ3VKs" alt="quicksor" /></br></br>
+                              <span style="color: #0A0A00">Input:</span><span id="innput" style="color: #0045E8">[1,4,7,8,11,15,19,24],[15]</span></br></br>
+                              <span style="color: #0A0A00">Output:</span><span id="outpuut" style="color: #0045E8">[5]</span></br></br>
+                              <span style="color: #0A0A00">Dificultad:</span><span style="color: #0045E8">Facil</span></br></br>
+                            <span style="color: #0A0A00">Puntos a ganar:</span><span style="color: #0045E8">2 puntos!</span></p></br>
+                            <a id="butun" class="btn btn-primary" href="#" role="button">Resolver Algoritmo</a>
+                            </div>
+                          </div>
+                          <hr>
+                          <div id="algoritmo-cinco"class="row">
+                            <div id="algoritmo-e"class="col-lg-8 offset-lg-2">
+                              <button type="button" class="btn btn-primary">Algoritmo de Busqueda En Profundidad!</button>
+                              <p> <span style="color: #0A0A00">Desc:</span></br>
+                                  Es un algoritmo para atravesar o buscar estructuras de datos de árboles o gráficos. Comienza en la raíz del árbol (o en algún nodo arbitrario de un gráfico, a veces denominado "clave de búsqueda"), y explora todos los nodos adyacentes a la profundidad actual antes de pasar a los nodos de la siguiente nivel de profundidad.Utiliza la estrategia opuesta como búsqueda en profundidad, que en su lugar explora primero los nodos de mayor profundidad antes de ser forzado a retroceder y expandir los nodos menos profundos.</br>
+                                  <span style="color: #0A0A00">Ejemplo:</span></br>
+                                  La amplitud del primer recorrido se logra encolando secuencialmente cada nivel de un árbol a medida que se encuentra la raíz de cualquier subárbol. Hay 2 casos en el algoritmo iterativo.
+                                  1.Caso raíz: la cola de recorrido está inicialmente vacía, por lo que el nodo raíz debe agregarse antes del caso general.
+                                  2.Caso general: Procese los elementos en la cola, al mismo tiempo que expande a sus hijos. Pare si la cola está vacía. El caso general se detendrá después de procesar el nivel inferior ya que los nodos de hoja no tienen hijos.</br></br>
+                                  Los pasos son:</br>
+                                  1.Dado un vértice fuente s, la busqueda en anchura sistemáticamente explora los vértices del grafo para “descubrir” todos los vértices alcanzables desde s.</br>
+                                  2.Calcula la distancia (menor número de vértices) desde s a todos los vértices alcanzables.</br>
+                                  3.Después produce un árbol con raíz en s y que contiene a todos los vértices alcanzables.</br>
+                                  4.El camino desde el nodo del arbol dt a cada vértice en este recorrido contiene el mínimo número de vértices. Es el camino más corto medido en número de vértices.</br>
+                                  5.Su nombre se debe a que expande uniformemente la frontera entre lo descubierto y lo no descubierto. Llega a los nodos de distancia k, sólo tras haber llegado a todos los nodos a distancia k-1.</br></br>
+                                  <span style="color: #0A0A00">Ejemplo:</span></br></br>
+                                  <img id="logo-quick"src="https://bit.ly/2RybNZ8" alt="quicksor" /></br></br>
+                                  <span style="color: #0A0A00">Input:</span><span id="innput" style="color: #0045E8">
+                                    Un problema de búsqueda. Un problema de búsqueda abstrae los requisitos específicos del problema del algoritmo de búsqueda real.</span></br></br>
+                                  <span style="color: #0A0A00">Output:</span><span id="outpuut" style="color: #0045E8">
+                                    Una lista ordenada de acciones a seguir para llegar desde el estado inicial hasta el estado objetivo.</span></br></br>
+                                  <span style="color: #0A0A00">Dificultad:</span><span style="color: #0045E8">Media</span></br></br>
+                                <span style="color: #0A0A00">Puntos a ganar:</span><span style="color: #0045E8">5 puntos!</span></p></br>
+                                <a id="butun" class="btn btn-primary" href="#" role="button">Resolver Algoritmo</a>
+                                </div>
+                              </div>
+                              <hr>
+                        </div>
+                      </div>
+                        <footer class="page-footer">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div id="about" class="col-lg-3">
+                                <h1> About us! </h1>
+                                <h2> Ingenieria Informatica ULL </h2>
+                                <p>Este sitio web es para todas aquellas
+                                  personas apasionadas del mundo de la programacion<br>
+                                  y sus divertidas partes(o menos divertidas).<br><br></p>
+                                  <h3>&copy Sys-Learn 2018</h3>
+                                  <nav class="nav-item"><a class="nav-link" href="term.html" target="_blank">Terms of Service</a></nav>
+
+                                </div>
+                                <!-- <div style="border-left:1px solid #8C857F;height:150px"></div> -->
+                                <div id="social"class="col-lg-6" style="font-size: 30px;">
+                                  <h1> Social media </h1>
+                                  <ul class="list-unstyled list-inline text-center">
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-tw" href="https://twitter.com/ComanescuVlad" target="_blank">
+                                        <i class="fa fa-twitter"> </i>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-fa" href="https://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook"> </i>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-in" href="https://instagram.com" target="_blank">
+                                        <i class="fa fa-instagram"> </i>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-li" href="https://www.linkedin.com/in/vlad-comanescu-8600b8131" target="_blank">
+                                        <i class="fa fa-linkedin"> </i>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- <div style="border-left:1px solid #8C857F;height:150px"></div> -->
+                                <div id="ubic" class="col-lg-2">
+                                  <h1> Ubicacion </h1>
+                                  <p>Sta.Cruz de Tenerife</p>
+                                  <a class="btn-floating btn-li" href="https://bit.ly/2zxCP8J" target="_blank">
+                                    <i class="fa fa-map-marker" style="font-size:24px"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </footer>
+                        </body>
+
+                        </html>
