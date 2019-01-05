@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<html lang="en"
+<head>
+  <meta http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <title> SysLearn </title>
+  <link rel="stylesheet" type="text/css" href="design_2.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-ligth fixed-top">
+  <a class = "imag"href="index.html"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
+    <a class="navbar-brand" class="nav-link" href="index.html">Sys-Learn</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class = "navbar-nav mr-6">
+        <!-- <li class="nav-item"><a class="nav-link" href="home">Página principal</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
+        <li class="nav-item"><a class="nav-link" href="retos">Challenges</a></li>
+        <li class="nav-item"><a class="nav-link" href="foro">Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
+        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
+      </ul>
+      <form class="form inline my-2">
+        <input id="busq" class="form-control mr-sm-1" type="search" placeholder="Busqueda" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+        <a href="#container"><button class="btn btn-outline-success" type="button">Login</button></a>
+        <div id="container">
+          <div class="popup">
+            <a href="#">
+              <img  src="https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/cross-512.png" style="width:25px;height:25px;border-radius:80px;" />
+            </a>
+          </div>
+          <div class="container-fluid">
+            <div id="login_ej" class="headerr">
+              <a id="lock" class="btn-floating btn-li">
+                <i class="fa fa-shield"></i></a>
+                <div class="header-title">
+                  <h1>Login</h1>
+                  <p>Introduce los datos de acceso </p>
+                </div>
+              </div>
+              <div class="panel">
+                <form action="datos.php" method="get">
+                  <div class="usuario">
+                    <label class="control-label" for="email">Usuario</label>
+                    <input type="text" required placeholder="usuario@email.com" name="email" id="campo_correo">
+                  </div>
+                  <div class="panell">
+                    <label class="control-label" for="password">Password</label>
+                    <input type="password" required placeholder="*******" name="password" id="campo_pass">
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <div class="remember">
+                        <input name="remember" class="styled" type="checkbox">
+                        <label for="checkbox">
+                          <p>Remember</p>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-lg-1">
+                      <button id="loginu"class="btn btn-outline-success" type="button" onclick="login()">Login</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- <div id="usuario_ej" class="usuario_logged">
+              <h1> Bienvenido a nuestro web-site </h1>
+              <p id="user_logged"> Actualmente te encuentras logeado en nuestro sitio. </p>
+              <button id="logout"class="btn btn-outline-success" type="button" onclick="logout()">Logout</button> -->
+
+              <!-- <p> Login </p>
+              <form action="datos.php" method="get">
+              <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com">
+              <input class="passwd" type="password" required name="contraseña" placeholder="Passwd">
+              <input type="submit" name="entrar">
+              <input type="reset" name="reseteo">
+
+            </form> -->
+          </div>
+        </form>
+      </div>
+    </div>
+    </nav> <!--informacion google maps,correo, -->
+    <body>
+      <header class="headerrr">
+        <div class="container-fluid">
+          <div class="learn-titulo">
+            <h1> Learn to code!</h1>
+          </div>
+        </div>
+      </header>
+      <div class="mainpage">
+        <div class="container-fluid">
+          <div id="learn-uno"class="row">
+            <div id="learn-a"class="col-lg-3 offset-lg-2">
+              <h1> Resolver algoritmos! </h1>
+              <p> Aprende a resolver diferentes algoritmos</br>
+                  para obtener puntos!</p>
+                  <div class="barra">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="20"
+                      aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                      20%
+                    </div>
+                  </div>
+                      <span class="n-challenges">(1/5 resueltos)</span>
+                    </div>
+                <a class="btn btn-primary" href="algoritmos.html" role="button">Ver Ejercicios de Algoritmia</a>
+
+                <a id="ver_ejer" class="btn-floating btn-li">
+                  <i class="fa fa-trophy"></i></a>
+                </div>
+                <div id="learn-b"class="col-lg-3 offset-1">
+                  <h1> Aprender Python Basico!</h1>
+                  <p> Aprende los conceptos basicos</br>
+                      de programacion en Python3.1</br>
+                      y luego podras seguir con el</br>
+                      curso de Python Advanced OOP!</br>
+                    </p>
+                    <div class="barra">
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                        0%
+                      </div>
+                    </div>
+                        <span class="n-challenges">(0/4 resueltos)</span>
+                      </div>
+                    <a class="btn btn-primary" href="python.html" role="button">Ver Curso Python</button>
+                    <a id="ver_curso" class="btn-floating btn-li">
+                      <i class="fa fa-graduation-cap"></i></a>
+                    </div>
+            </div>
+            <hr>
+            <div id="learn-dos"class="row">
+              <div id="learn-c" class="col-lg-3 offset-lg-2">
+                <h1> Programacion funcional</h1>
+                <p> Resuelve ejercicios de programacion funcional en tu
+                  lenguaje favorito.Aprende trabajar con listas,funciones de orden superior
+                  y primera clase,funciones puras,recursividad,etc.</br></p>
+                  <div class="barra">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                      aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                      0%
+                    </div>
+                  </div>
+                      <span class="n-challenges">(0/6 resueltos)</span>
+                    </div>
+                    <a class="btn btn-primary" href="#" role="button">Ver Curso Programacion Funcional</button>
+                    <a id="ver_pro_func" class="btn-floating btn-li">
+                      <i class="fa fa-trophy"></i></a>
+                    </div>
+                    <div id="learn-d" class="col-lg-3 offset-lg-1">
+                      <h1> Inteligencia artificial!</h1>
+                      <p> Resuelve ejercicios de inteligencia artificial en tu
+                        lenguaje favorito.Aprende trabajar con funciones heuristicas,bots,etc.</br></p>
+                        <div class="barra">
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="16.67"
+                            aria-valuemin="0" aria-valuemax="100" style="width:16.67%">
+                            16.67%
+                          </div>
+                        </div>
+                            <span class="n-challenges">(1/6 resueltos)</span>
+                          </div>
+                          <a class="btn btn-primary" href="ia.html" role="button">Ver Curso Inteligencia Artificial</button>
+                          <a id="ver_ia" class="btn-floating btn-li">
+                            <i class="fa fa-trophy"></i></a>
+                          </div>
+                  </div>
+                  <hr>
+                  <div id="learn-tres" class="row">
+                    <div id="learn-e" class="col-lg-3 offset-lg-2">
+                      <h1>Seguridad informatica</h1>
+                        <p>Resuelve ejercicios de criptografia,</br>
+                           relacionadoscon la criptografia asimetrica,</br>
+                           de clave publica,algoritmos de encriptacio</br>
+                           ,analisis criptografico,estenografia,etc.</br>
+                          </p>
+                           <div class="barra">
+                             <div class="progress">
+                               <div class="progress-bar" role="progressbar" aria-valuenow="16.67"
+                               aria-valuemin="0" aria-valuemax="100" style="width:16.67%">
+                               16.67%
+                             </div>
+                           </div>
+                               <span class="n-challenges">(1/6 resueltos)</span>
+                             </div>
+                          <a class="btn btn-primary" href="#" role="button">Ver Curso Seguridad Informatica</button>
+                          <a id="ver_seg" class="btn-floating btn-li">
+                            <i class="fa fa-lock"></i></a>
+                        </div>
+                        <div id="learn-f" class="col-lg-3 offset-lg-1">
+                          <h1>Sistemas distribuidos!</h1>
+                            <p>Resuelve ejercicios relacionados con los</br>
+                               servidores,clientes,RPC's,MapReduce,</br>
+                               Arquitectura cliente-servidor,
+                               Arquitectura p2p,computacion paralela.</br>
+                               </p>
+                               <div class="barra">
+                                 <div class="progress">
+                                   <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                   aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                                   0%
+                                 </div>
+                               </div>
+                                   <span class="n-challenges">(0/6 resueltos)</span>
+                                 </div>
+                              <a class="btn btn-primary" href="#" role="button">Ver Curso Sistemas Distribuidos</button>
+                              <a id="ver_sys" class="btn-floating btn-li">
+                                <i class="fa fa-sitemap"></i></a>
+                            </div>
+                      </div>
+                      <hr>
+                      <div id="learn-cuatro"class="row">
+                        <div class="col-lg-3 offset-lg-2">
+                          <h1> Aprender lenguajes de programacion!</h1>
+                          <a id="lengs" class="btn-floating btn-li">
+                            <i class="fa fa-stream"></i></a>
+                          <ul id="learn-prog"class="points">
+                              <button id="prog1" class="btn btn-info btn-lg btn-custom-lg" type="submit">1.Pascal</button><hr>
+                              <button id="prog2" class="btn btn-info btn-lg btn-custom-lg" type="submit">2.C</button><hr>
+                              <button id="prog3" class="btn btn-info btn-lg btn-custom-lg" type="submit">3.C++</button><hr>
+                              <button id="prog4" class="btn btn-info btn-lg btn-custom-lg" type="submit">4.Python</button><hr>
+                              <button id="prog5" class="btn btn-info btn-lg btn-custom-lg" type="submit">5.Ruby</button><hr>
+                              <button id="prog6" class="btn btn-info btn-lg btn-custom-lg" type="submit">6.Java</button><hr>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div class="col-lg-3 offset-lg-1">
+                            <h1> Lista de los cursos disponibles!</h1>
+                            <a id="curss" class="btn-floating btn-li">
+                              <i class="fa fa-book-open"></i></a>
+                            <ul id="learn-cursos"class="points">
+                                <button id="curso1" class="btn btn-info btn-lg btn-custom-lg" type="submit">Algoritmia</button><hr>
+                                <button id="curso2" class="btn btn-info btn-lg btn-custom-lg" type="submit">Python en 30 dias</button><hr>
+                                <button id="curso3" class="btn btn-info btn-lg btn-custom-lg" type="submit">Programacion funcional</button><hr>
+                                <button id="curso4" class="btn btn-info btn-lg btn-custom-lg" type="submit">Inteligencia artificial</button><hr>
+                                <button id="curso5" class="btn btn-info btn-lg btn-custom-lg" type="submit">Seguridad Informatica</button><hr>
+                                <button id="curso6" class="btn btn-info btn-lg btn-custom-lg" type="submit">Sistemas distribuidos</button><hr>
+                              </ul>
+                            </div>
+                            <hr>
+                          </div>
+                        </div>
+                      </div>
+                        <footer class="page-footer">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div id="about" class="col-lg-3">
+                                <h1> About us! </h1>
+                                <h2> Ingenieria Informatica ULL </h2>
+                                <p>Este sitio web es para todas aquellas
+                                  personas apasionadas del mundo de la programacion<br>
+                                  y sus divertidas partes(o menos divertidas).<br><br></p>
+                                  <h3>&copy Sys-Learn 2018</h3>
+                                  <nav class="nav-item"><a class="nav-link" href="term.html" target="_blank">Terms of Service</a></nav>
+
+                                </div>
+                                <!-- <div style="border-left:1px solid #8C857F;height:150px"></div> -->
+                                <div id="social"class="col-lg-6" style="font-size: 30px;">
+                                  <h1> Social media </h1>
+                                  <ul class="list-unstyled list-inline text-center">
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-tw" href="https://twitter.com/ComanescuVlad" target="_blank">
+                                        <i class="fa fa-twitter"> </i>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-fa" href="https://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook"> </i>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-in" href="https://instagram.com" target="_blank">
+                                        <i class="fa fa-instagram"> </i>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-li" href="https://www.linkedin.com/in/vlad-comanescu-8600b8131" target="_blank">
+                                        <i class="fa fa-linkedin"> </i>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- <div style="border-left:1px solid #8C857F;height:150px"></div> -->
+                                <div id="ubic" class="col-lg-2">
+                                  <h1> Ubicacion </h1>
+                                  <p>Sta.Cruz de Tenerife</p>
+                                  <a class="btn-floating btn-li" href="https://bit.ly/2zxCP8J" target="_blank">
+                                    <i class="fa fa-map-marker" style="font-size:24px"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </footer>
+                        </body>
+
+                        </html>

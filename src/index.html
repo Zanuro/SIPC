@@ -20,74 +20,76 @@
      <a class = "imag"href="index.asp"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
      <a class="navbar-brand" class="nav-link" href="index.html">Sys-Learn</a>
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     <ul class = "navbar-nav mr-6">
-     <!-- <li class="nav-item"><a class="nav-link" href="home">Página principal</a></li> -->
-     <li class="nav-item"><a class="nav-link" href="aprender">Learn</a></li>
-     <li class="nav-item"><a class="nav-link" href="retos">Challenges</a></li>
-     <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
-     <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
-     <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-   </ul>
-   <form class="form inline my-2">
-      <input class="form-control mr-sm-1" type="search" placeholder="Busqueda" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Buscar</button>
-        <a href="#container"><button class="btn btn-outline-success" type="button">Registrarse</button></a>
-           <div id="container">
-             <div class="popup">
-               <a href="#">
-                 <img  src="https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/cross-512.png" style="width:25px;height:25px;border-radius:80px;" />
-               </a>
-             </div>
+       <ul class="navbar-nav mr-6">
+         <!-- <li class="nav-item"><a class="nav-link" href="home">Página principal</a></li> -->
+         <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
+         <li class="nav-item"><a class="nav-link" href="retos">Challenges</a></li>
+         <li class="nav-item"><a class="nav-link" href="foro">Forum</a></li>
+         <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
+         <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+         <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
+       </ul>
+       <form class="form inline my-2">
+         <input id="busq" class="form-control mr-sm-1" type="search" placeholder="Busqueda" aria-label="Search">
+         <button class="btn btn-outline-success" type="submit">Buscar</button>
+         <a href="#container"><button class="btn btn-outline-success" type="button">Login</button></a>
+         <div id="container">
+           <div class="popup">
+             <a href="#">
+               <img src="https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/cross-512.png" style="width:25px;height:25px;border-radius:80px;">
+             </a>
+           </div>
+           <div class="container-fluid">
              <div id="login_ej" class="headerr">
                <a id="lock" class="btn-floating btn-li">
-               <i class="fa fa-shield"></i></a>
-             <div class="header-title">
-               <h1>Login</h1>
-               <p>Introduce los datos de acceso </p>
-               </div>
-               </div>
-             <div class="panel">
-               <form action="datos.php" method="get">
-               <div class="usuario">
-                 <label class="control-label" for="email">Usuario</label>
-                 <input type="text" required placeholder="usuario@email.com" name="email" id="campo_correo">
+                 <i class="fa fa-shield"></i></a>
+                 <div class="header-title">
+                   <h1>Login</h1>
+                   <p>Introduce los datos de acceso </p>
                  </div>
-               <div class="panell">
-                  <label class="control-label" for="password">Password</label>
-                  <input type="password" required placeholder="*******" name="password" id="campo_pass">
-                 </div>
-                 <div class="row">
-                 <div class="col-lg-1">
-                   <div class="remember">
-                     <input name="remember" class="styled" type="checkbox">
-                     <label for="checkbox">
-                       <p>Remember</p>
-                       </label>
-                       </div>
-                       </div>
-                 <div class="col-lg-1">
-                   <button id="loginu"class="btn btn-outline-success" type="button" onclick="login()">Login</button>
-                   </div>
-                   </div>
-                   </form>
-                   </div>
-                   </div>
-                   <div id="usuario_ej" class="usuario_logged">
-                     <h1> Bienvenido a nuestro web-site </h1>
-                     <p id="user_logged"> Actualmente te encuentras logeado en nuestro sitio. </p>
-                     <button id="logout"class="btn btn-outline-success" type="button" onclick="logout()">Logout</button>
+               </div>
+               <div class="panel">
 
-             <!-- <p> Login </p>
-            <form action="datos.php" method="get">
+                   <div class="usuario">
+                     <label class="control-label" for="email">Usuario</label>
+                     <input type="text" required="" placeholder="usuario@email.com" name="email" id="campo_correo">
+                   </div>
+                   <div class="panell">
+                     <label class="control-label" for="password">Password</label>
+                     <input type="password" required="" placeholder="*******" name="password" id="campo_pass">
+                   </div>
+                   <div class="row">
+                     <div class="col-lg-1">
+                       <div class="remember">
+                         <input name="remember" class="styled" type="checkbox">
+                         <label for="checkbox">
+                           <p>Remember</p>
+                         </label>
+                       </div>
+                     </div>
+                     <div class="col-lg-1">
+                       <button id="loginu" class="btn btn-outline-success" type="button" onclick="login()">Login</button>
+                     </div>
+                   </div>
+
+               </div>
+             </div>
+             <!-- <div id="usuario_ej" class="usuario_logged">
+               <h1> Bienvenido a nuestro web-site </h1>
+               <p id="user_logged"> Actualmente te encuentras logeado en nuestro sitio. </p>
+               <button id="logout"class="btn btn-outline-success" type="button" onclick="logout()">Logout</button> -->
+
+               <!-- <p> Login </p>
+               <form action="datos.php" method="get">
                <input class="usuario/email" type="text" name="usuario" placeholder="usuario@email.com">
                <input class="passwd" type="password" required name="contraseña" placeholder="Passwd">
                <input type="submit" name="entrar">
                <input type="reset" name="reseteo">
 
              </form> -->
-           </div>
-    </form>
-  </div>
+           </div></form>
+
+       </div>
  </nav> <!--informacion google maps,correo, -->
 <body>
   <div class ="body-main" >
@@ -100,67 +102,60 @@
           </div>
         </header>
   <div class="mainpage">
-      <div id="uno"class="row">
+    <div id="uno"class="row">
       <div class="col-lg-6 offset-lg-2" >
         <hr>
         <h1> Bienvenido! </h1>
-        <p> Esto es un mensaje de bienvenida para todos<br>los
-          nuevos usuarios de nuestra pagina, y que se <br>
+        <p> Esto es un mensaje de bienvenida para todos<br>
+          los nuevos usuarios de nuestra pagina, y que se <br>
           familiaricen con nuestra pagina.<br>
-            Pulse el boton "See More" para mas informacion.</p>
-      <button class="btn btn-outline-success" type="submit">See More</button>
-      <a id="bienv" class="btn-floating btn-li">
-      <i class="fa fa-code"></i></a>
-      <img src="https://media.giphy.com/media/OkJat1YNdoD3W/giphy.gif" alt="Welcome" />
-      <!-- <form action="datos.php" method="get">
-        Username: <input type="text" name="usuario">
-        Passwd: <input type="password" name="contraseña" >
-        Login: <input type="submit" name="entrar" >
-        Reset: <input type="reset" name="borrar" >
-      </form> -->
+          Pulse el boton "See More" para mas informacion.</p>
+        <button class="btn btn-outline-success" type="submit">See More</button>
+        <a id="bienv" class="btn-floating btn-li">
+        <i class="fa fa-code"></i></a>
+        <img src="https://media.giphy.com/media/OkJat1YNdoD3W/giphy.gif" alt="Welcome" />
+      </div>
     </div>
-    </div>
-      <div class="row">
-      <div class="col-lg-6 offset-lg-2">
+    <div id="learn"class="row">
+      <div id="otros" class="col-lg-6 offset-lg-2" style="margin-block-end:-200px;">
         <hr>
-        <h1> Challenges! </h1>
-        <p> En esta seccion podras enfrentarte a los mejores
-            en diferentes retos de programacion, en el lenguaje
-            que mejor domines.</p>
-        <h2> Reto del Dia! </h2>
-        <h3> Full Metal Chemist #1:build me....</h3>
-        <p> El tema de este kata es crear dos clases:Molecula y Atomo
-            que te permitiran constuir equivalentes numericos de compuestos
-            organicos utilizando un conjunto de metodos y restituir
-            algunas de sus propiedades. </p>
-        <a id="challenge" class="btn-floating btn-li">
-        <i class="fa fa-code-branch"></i></a>
-        <!-- <a class="imagg" href="imagenn.asp">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Biotin-3D-balls.png/1024px-Biotin-3D-balls.png" alt = "Imagen molecula" style="width:50px;height:50px"/> -->
+        <h1>Learn to code!</h1>
+        <h2>Aprende cosas nuevas de la programacion!</h2>
+        <p><h4>Skills que puedes mejorar con nosotros!</h4><br>
+          -Sistemas distribuidos<br>
+          -Bases relacionales<br>
+          -Efficient scripting<br>
+          -Regex<br>
+          -A.I<br>
+          -Data-mining<br>
+          -Data-scraping<br>
+          -Ciber-seguridad</p>
+          <button class="btn btn-outline-success" href="learn.html" type="submit">See Learning</button>
+          <a class="btn-floating btn-li">
+          <i class="fa fa-terminal"></i></a>
+          <img src="https://bit.ly/2FFDEC3" alt="coding">
         </div>
       </div>
-
-      <div class="row">
+      <div id="chall" class="row">
         <div class="col-lg-6 offset-lg-2">
           <hr>
-          <p>Learn to code in 60 days</br>
-          Aprende los conceptos basicos de la programacion!</p>
+          <h1> Challenges! </h1>
+          <h2> En esta seccion podras enfrentarte a los mejores
+          en diferentes retos de programacion, en el lenguaje
+          que mejor domines.<p></p>
+          </h2><h3> Reto del Dia! </h3>
+          <h4> Full Metal Chemist #1:build me....</h4>
+          <p> El tema de este kata es crear dos clases:</p>
+          <p>Molecula y Atomo que te permitiran constuir equivalentes numericos de compuestos
+          organicos utilizando un conjunto de metodos y restituir
+          algunas de sus propiedades. </p>
+          <button class="btn btn-outline-success" type="submit">See Challenges</button>
+          <a id="bienv2" class="btn-floating btn-li">
+          <i class="fa fa-archive"></i></a>
+         <img src="https://bit.ly/2LMUpe5" alt="molecule">
+        <hr>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 offset-lg-2">
-      <hr>
-      <p>Skills que puedes mejorar con nosotros!</br>
-      -Sistemas distribuidos</br>
-      -Bases relacionales</br>
-      -Efficient scripting</br>
-      -Regex</br>
-      -A.I</br>
-      -Data-mining</br>
-      -Data-scraping</p>
-      <hr>
-    </div>
-  </div>
   <div id="ranking"class="row">
     <div id="colr"class="col-lg-6 offset-lg-2">
       <h1> Sistema de Ranking! </h1>

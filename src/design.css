@@ -90,13 +90,14 @@
 }
 #uno h1{
   position: relative;
-  left:10px;
+  left:75px;
 }
 #uno p{
   text-align:center;
   position: relative;
   bottom:-80px;
   left:300px;
+  margin-left: 150px;
   text-align: left;
   letter-spacing: 2px;
   font-family: 'Slabo 27px', serif;
@@ -107,14 +108,14 @@
 #uno button{
   position: relative;
   bottom:265px;
-  left:280px;
+  left:725px;
   font-size: 20px;
 }
 #bienv{
   position: relative;
   font-size:30px;
   bottom:290px;
-  left:80px;
+  left:-135px;
 }
 #uno img{
   position:relative;
@@ -124,6 +125,83 @@
   border-radius: 10%;
   right:180px;
 
+}
+
+#learn h1{
+  position: relative;
+  left:75px;
+}
+#learn p{
+  text-align:center;
+  position: relative;
+  bottom:-20px;
+  left:-100px;
+  margin-left: 150px;
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+
+#learn button{
+  position: relative;
+  bottom:503px;
+  left:715px;
+  font-size: 20px;
+}
+
+#learn img{
+  position:relative;
+  width:400px;
+  height:280px;
+  bottom:270px;
+  border-radius: 10%;
+  left:300px;
+
+}
+#learn a {
+    position: relative;
+    font-size: 30px;
+    top: -520px;
+    left: -160px;
+}
+#chall h1{
+  position: relative;
+  left:85px;
+}
+#chall p{
+  text-align:center;
+  position: relative;
+  bottom:-20px;
+  left:-100px;
+  margin-left: 150px;
+  text-align: left;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+
+#chall button{
+  position: relative;
+  bottom:430px;
+  left:715px;
+  font-size: 20px;
+}
+
+#chall img{
+  position:relative;
+  width:265px;
+  height:150px;
+  border-radius: 10%;
+  left:85px;
+
+}
+#chall a {
+    position: relative;
+    font-size: 30px;
+    bottom: 455px;
+    left: -170px;
 }
 
 .imagg{
@@ -221,7 +299,7 @@ img {
 #colr button{
   position: relative;
   bottom:410px;
-  left:410px;
+    right: -740px;
   font-size: 20px;
 }
 #colr p{
@@ -243,10 +321,9 @@ img {
 #rankstar{
   position: relative;
   bottom:90px;
-  left:320px;
 }
 #foro a{
-  bottom:150px
+  bottom:150px;
   left:100px;
   font-size: 20px;
 }
@@ -264,7 +341,7 @@ img {
 #foro button{
   position: relative;
   bottom:200px;
-  left:500px;
+  left:720px;
   font-size:20px;
 }
 #foro img{
@@ -319,6 +396,7 @@ img {
 #colr h1{
   font-family: 'Slabo 27px', serif;
   font-size: 40px;
+    margin-left: 90px;
 }
 .textr{
   position: relative;
@@ -340,7 +418,7 @@ img {
 }
 .page-footer{
   position: relative;
-  background-color:#20c997;
+  background-color:#0b231c;
   height: 100%;
   margin-top: 100px;
 }
@@ -398,8 +476,7 @@ img {
 #trofeo{
   font-size: 30px;
   position: relative;
-  bottom:150px;
-  left:300px;
+  bottom:155px;
 }
 #concurso p{
   position: relative;
@@ -415,13 +492,16 @@ img {
 #concurso button{
   position: relative;
   bottom:130px;
-  left:330px;
+  left:690px;
   font-size: 20px;
 }
 #concurso img{
   position: relative;
   top:50px;
   right:180px;
+}
+#concurso h1{
+    margin-left: 90px;
 }
 .fa{
   font-style: normal;

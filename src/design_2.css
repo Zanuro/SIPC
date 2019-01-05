@@ -1,0 +1,1223 @@
+.navbar{
+  background: #0b231c;
+}
+
+.nav-link{
+  margin-right:2em;}
+  .navbar-brand{
+    color:#FFF2F1;
+  }
+  .nav-link{
+    color:#FFF2F1;
+  }
+  .nav-link:hover{
+    color :#E8930C;
+    background-color: #FFF2F1;
+  }
+  .navbar-brand:hover{
+    color:#FFF2F1;
+  }
+  .navbar-collapse{ justify-content: flex-end;}
+
+  .header{
+    background-image: url('http://gda.itesm.mx/sitios/imagesCont/computer-programming_bcba943585.jpeg');
+    background-attachment: scroll;
+    background-size:cover;
+    top:2em;
+    height:28em;
+    z-index: -2;
+    opacity: 0.9;
+  }
+  .titulo {
+    position: relative;
+    bottom: -5em;
+    color:#0000;
+    margin: auto;
+  }
+  .titulo h1{
+    position: relative;
+    text-align: center;
+    letter-spacing: 3px;
+    top:50px;
+    color:#FFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 3.5em;
+
+  }
+  .titulo h2{
+    text-align: center;
+    position: relative;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 2.5em;
+    top:50px;
+    color:#FFFF;
+    font-weight: bolder;
+  }
+  .titulo h3{
+    text-align:center;
+    position: relative;
+    bottom:-1em;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 2.5em;
+    top:50px;
+    color: #ffff;
+    font-weight: bolder;
+  }
+
+  .imag{
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .uno{
+    /* background-color: #D2D6B9; */
+    /* height:300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    /* background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/programming-languages-to-learn-for-wordpress-featured-image.png'); */
+  }
+  #uno{
+    padding-top: 20px;
+  }
+  #uno h1{
+    position: relative;
+    left:10px;
+  }
+  #uno p{
+    text-align:center;
+    position: relative;
+    bottom:-80px;
+    left:500px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+  }
+
+  #buton-1{
+    position: relative;
+    bottom:265px;
+    left:32%;
+    font-size: 20px;
+  }
+
+  #bienv{
+    position: relative;
+    font-size:30px;
+    bottom:290px;
+    left:9%;
+  }
+  #bienv1{
+    position: relative;
+    font-size:30px;
+    bottom:330px;
+    left:3%;
+  }
+  #uno img{
+    position:relative;
+    width:300px;
+    height:200px;
+    bottom:100px;
+    border-radius: 20%;
+    right:180px;
+  }
+
+  #dos h1{
+    position: relative;
+    left:10px;
+    top:10px;
+  }
+  #dos h2{
+    position: relative;
+    top:30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+  }
+  #dos h3{
+    position: relative;
+    top:40px;
+  }
+  #dos h4{
+    position: relative;
+    top:40px;
+  }
+ #buton2{
+  position: relative;
+  bottom:305px;
+  left:35%;
+  font-size: 20px;
+ }
+
+  #dos p{
+    position: relative;
+    bottom:-50px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+  }
+ #dos img{
+   position: relative;
+   bottom:150px;
+   left:150px;
+   width:100px;
+   height:70px;
+ }
+
+ #tres h1{
+   position: relative;
+   left:10px;
+   font-size: 35px;
+
+ }
+ #tres h2{
+   position: relative;
+   left:10px;
+   top:10px;
+   font-size: 20px;
+
+ }
+ #tres p{
+   position: relative;
+   left:500px;
+   top:120px;
+   text-align: left;
+   letter-spacing: 2px;
+   font-family: 'Slabo 27px', serif;
+   font-size: 20px;
+   color: grey;
+
+ }
+
+#buton3{
+   position: relative;
+   bottom:470px;
+   left:35%;
+   font-size: 20px;
+ }
+#bienv2{
+  position: relative;
+   bottom:500px;
+   left:7%;
+   font-size: 20px;
+ }
+
+ #tres img{
+   position: relative;
+   bottom:150px;
+   right:200px;
+   width:400px;
+   height:250px;
+   border-radius: 20px;
+ }
+  .imagg{
+    position: relative;
+    top:-150px;
+    right:-200px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+  }
+  /* #textr{
+  position:relative;
+  bottom:500px;
+  left:200px;
+
+  } */
+  #lock{
+    position: relative;
+    font-size:25px;
+    right:70px;
+  }
+  .header-title h1{
+    position: relative;
+    bottom:30px;
+    left:50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 50px;
+    color: grey;
+  }
+  .header-title p{
+    position: relative;
+    bottom:30px;
+    left:0px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+  }
+  .usuario{
+    position: relative;
+    bottom:30px;
+    left:0px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+  }
+  .panell{
+    position: relative;
+    bottom:30px;
+    left:-8px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: grey;
+  }
+  .remember input{
+    position: relative;
+    bottom:22px;
+    left:240px;
+    color:grey;
+    width:25px;
+    height:30px;
+  }
+  .remember p{
+    position: relative;
+    bottom:60px;
+    left:140px;
+    text-align:center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color:grey;
+  }
+  #loginu{
+    position:relative;
+    bottom:30px;
+    left:248px;
+    font-size:20px;
+  }
+
+  #ranking{
+    height: 350px;
+    width:100%;
+  }
+  #colr{
+    width:100%;
+  }
+  #colr button{
+    position: relative;
+    bottom:410px;
+    left:410px;
+    font-size: 20px;
+  }
+  #colr p{
+    position: relative;
+    bottom:400px;
+    left:300px;
+    textSize:20px;
+  }
+
+  .mainpage{
+    font-family:'Slabo 27px', serif;
+
+  }
+  #rankstar{
+    position: relative;
+    bottom:90px;
+    left:320px;
+  }
+  #intel{
+    bottom:250px;
+    left:40%;
+    font-size: 20px;
+  }
+  #foro p{
+    position: relative;
+    left:480px;
+    top:20px;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    color: grey;
+  }
+  #buton4{
+    position: relative;
+    bottom:190px;
+    left:61%;
+    font-size:20px;
+  }
+  #foro img{
+    position: relative;
+    bottom:95px;
+    right:160px;
+
+  }
+  #espacio{
+    width:100%;
+    height:80px;
+  }
+  #arrow1{
+    border-left: 2px solid grey;
+    height: 230px;
+  }
+  #arrow2{
+    border-top: 2px solid grey;
+    width: 250px;
+  }
+  #rank1 {
+    position: relative;
+    bottom:250px;
+    left:30px;
+  }
+  #rank2 {
+    position: relative;
+    bottom:210px;
+    left:-20px;
+  }
+  #rank3 {
+    position: relative;
+    bottom:170px;
+    left:-70px;
+  }
+  #rank4 {
+    position: relative;
+    bottom:130px;
+    left:-120px;
+  }
+  #rank5 {
+    position: relative;
+    bottom:90px;
+    left:-170px;
+  }
+  #ranking p{
+    color: grey;
+    position: relative;
+    top:50px;
+    left:100px;
+  }
+  #colr h1{
+    font-family: 'Slabo 27px', serif;
+    font-size: 40px;
+  }
+  .textr{
+    position: relative;
+    bottom:410px;
+    left:370px;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+  }
+
+  #foro{
+    width:100%;
+    height: 250px;
+  }
+  #foro h1{
+    font-size: 30px;
+  }
+  .page-footer{
+    position: relative;
+    background-color:#0b231c;
+    height: 100%;
+    width:100%;
+  }
+  #about h1{
+    color:white;
+    position: relative;
+    left:150px;
+    font-size:25px;
+  }
+  #about h2{
+    color:white;
+    position: relative;
+    left:80px;
+    font-size:20px;
+  }
+  #about p{
+    color:white;
+    position: relative;
+    left:40px;
+    font-size:15px;
+  }
+  #about nav{
+    position: relative;
+    left:100px;
+    font-size: 20px;
+  }
+  #about h3{
+    position: relative;
+    left:100px;
+    color:white;
+    font-size: 20px;
+
+  }
+  #social h1{
+    position: relative;
+    top:10px;
+    left:350px;
+    color:#FFEBCB;
+  }
+  .btn-floating i{
+    display: inline-block;
+    text-align: center;
+    color: #FFFF;
+    font-size: 1em;
+    border-radius: 50%;
+    line-height: 60px;
+    width: 60px;
+    background-color: grey;
+    position: relative;
+    top:30px;
+    left:25px;
+
+  }
+
+  #trofeo{
+    font-size: 30px;
+    position: relative;
+    bottom:150px;
+    left:300px;
+  }
+  #concurso p{
+    position: relative;
+    bottom:100px;
+    left:480px;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color:grey;
+  }
+  #concurso button{
+    position: relative;
+    bottom:130px;
+    left:330px;
+    font-size: 20px;
+  }
+  #concurso img{
+    position: relative;
+    top:50px;
+    right:180px;
+  }
+  .fa{
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-family: FontAwesome;
+  }
+  .parte-baja{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    font-style: italic;
+    font-family: "Libre Baskerville", "Anton", "Josefin Sans";
+
+  }
+  #ubic h1{
+    color:white;
+  }
+  #ubic p{
+    color:white;
+    position: relative;
+    left:10px;
+  }
+
+  .col-lg-2  i{
+    display:inline-block;
+    text-align: center;
+    color:#FFFF;
+    font-size: 1em;
+    top:-10px;
+    left:60px;
+  }
+  .navigation{
+    background-color: white;
+    border-style: ridge;
+    border-color: #8231E8;
+    border-radius: 15px;
+
+  }
+
+  .reloj{
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 60%;
+    margin:2px auto;
+    position:relative;
+
+  }
+  .reloj1{
+    position: relative;
+    width:100%;
+    height: 100%;
+    transform: translateY(40px);
+
+  }
+  .hora{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    top:0%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0,1.65,.09,1.3);
+  }
+  .minuto{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    top:0%;
+    transform-origin: 100%;
+    transform: rotate(120deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0,1.65,.09,1.3);
+
+  }
+  .segundo{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    top:0%;
+    transform-origin: 100%;
+    transform: rotate(180deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0,1.65,.09,1.3);
+
+  }
+  .pestanas-menu{
+    display: grid;
+    grid-template-columns: auto auto ;
+
+  }
+
+  @import url("'https://fonts.googleapis.com/css?family=Gilda+Display'");
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.1px;
+  }
+
+
+  html {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    /* background: #DAC399;
+    font-family: "Gilda-Display", serif; */
+  }
+  footer{
+    position: fixed;
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+
+  }
+   .naveg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 0em;
+    list-style: none;
+  }
+
+  .naveg li {
+    width: 125px;
+    height: 50px;
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+  }
+  .naveg li a {
+    font-size: 22px;
+    color: #777;
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+  .naveg li:hover {
+    background:
+    url:()
+  }
+  .naveg li:hover a {
+    color: #d94f5c;
+  }
+  .naveg li:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  @-webkit-keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+
+  @keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+
+  #container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: relative;
+    visibility: hidden;
+    display: none;
+    background-color: #20c997;
+  }
+  #container:target {
+    position:absolute;
+    visibility: visible;
+    animation: fadeIn 0.8s;
+    width: 25%;
+    height: 300%;
+    text-align: center;
+    border-radius: 25%;
+    padding: 10px 0;
+    border: 2px solid #70FF8F;
+    z-index: 1;
+    top:70%;
+    left: 58%;
+    margin-left: -20%;
+    margin-top: 10em;
+    display: block;
+    color :##70FF8F;
+    background-color: #70FF8F;
+  }
+  .popup {
+    position: relative;
+    margin: 0 auto;
+    top: 35%;
+    color:#70FF8F;
+    right:5%;
+    cursor: pointer;
+  }
+  div.popup img {
+    margin-block-start: -9em;
+    margin-block-end: 0em;
+    margin-inline-start: 90%;
+  }
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+#busq{
+  width:77%;
+}
+#body-reg,#html-reg{
+  height:100%;
+  background-color: #FFF4A6;
+  background-size: cover;
+}
+.box-reg{
+  margin:100px 50px;
+}
+.form-group{
+  margin-bottom: 15px;
+}
+.box-regg{
+  margin-top:30px;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 10px 20px;
+  background-color: #FC9B1D;
+  border-radius: 20px;
+}
+#buton-reg{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  background-color: #1F6B18;
+  box-shadow: 1px 2px 2px 1px #FF0000;
+}
+
+#tit-reg{
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+}
+.form-style{
+  color: #8DB4FB;
+  width:100%;
+  height:30px;
+}
+.headerrr{
+  background-image: url('https://bit.ly/2DUc0zv');
+  background-attachment: scroll;
+  background-size:cover;
+  top:2em;
+  width:120em;
+  height:28em;
+  z-index: -2;
+}
+.headerrbg{
+  background-color: rgba(0,0,0, 0.4);
+  border: 1px solid #081507;
+  position: static;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(53%, 4%);
+  width: 50%;
+  padding: 20px;
+  z-index: -2;
+  opacity: 0.9;
+  margin-block-end: 10px;
+}
+.learn-titulo h1{
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
+  top:200px;
+  color:#FFFF1F;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3.5em;
+}
+ #learn-a, #learn-b,#learn-c,#learn-d,#learn-e,#learn-f{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+  opacity: 0.8;
+
+}
+html,body{
+  margin:0px;
+  padding:0px;
+}
+#learn-uno{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#learn-dos{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#learn-tres{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#learn-cuatro{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#learn-a p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+
+}
+#learn-b p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+
+}
+#learn-c p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+
+}
+#learn-d p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+
+}
+#learn-e p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+
+}
+#learn-f p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#learn-a h1{
+  text-align: center;
+}
+#learn-b h1{
+  text-align: center;
+}
+#learn-c h1{
+  text-align: center;
+}
+#learn-d h1{
+  text-align: center;
+}
+#learn-e h1{
+  text-align: center;
+}
+#learn-f h1{
+  text-align: center;
+}
+#ver_ejer{
+  position:relative;
+  left:32%;
+  bottom:210px;
+}
+#ver_curso{
+  position:relative;
+  left:57%;
+  bottom:270px;
+}
+#ver_pro_func{
+  position:relative;
+  left:26%;
+  bottom:300px;
+}
+#ver_ia{
+  position:relative;
+  left:26%;
+  bottom:240px;
+}
+#ver_seg{
+  position:relative;
+  left:26%;
+  bottom:270px;
+}
+#ver_sys{
+  position:relative;
+  left:26%;
+  bottom:270px;
+}
+.header1{
+  background-image: url('https://bit.ly/2RrrgKE');
+  background-attachment: scroll;
+  background-size:cover;
+  top:2em;
+  width:100%;
+  height:22em;
+  z-index: -2;
+}
+#algoritmo-desc{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.algoritmos-titulo h1{
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
+  top:200px;
+  color:#FFFF1F;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3.5em;
+}
+#algoritmo-desc-a h1{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  color: black;
+}
+#algoritmo-desc-a p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#algoritmo-a p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#algoritmo-uno{
+  padding-top: 10px;
+}
+#algoritmo-a button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#algoritmo-a{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#innput,#outpuut{
+  background-color: white;
+}
+#butun{
+  font-size:25px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+#algoritmo-b p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#algoritmo-dos{
+  padding-top: 10px;
+}
+#algoritmo-b button{
+    position: relative;
+    left:45%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#algoritmo-b{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#logo-quick{
+  position: relative;
+  left:0%;
+  bottom:30%;
+  width:250px;
+  height:250px;
+}
+#algoritmo-c p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#algoritmo-tres{
+  padding-top: 10px;
+}
+#algoritmo-c button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#algoritmo-c{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#algoritmo-d p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#algoritmo-cuatro{
+  padding-top: 10px;
+}
+#algoritmo-d button{
+    position: relative;
+    left:35%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#algoritmo-d{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#algoritmo-e p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#algoritmo-cinco{
+  padding-top: 10px;
+}
+#algoritmo-e button{
+    position: relative;
+    left:30%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#algoritmo-e{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+.headar{
+  background-image: url('https://bit.ly/2VwIAgh');
+  background-attachment: scroll;
+  background-size:cover;
+  top:2em;
+  width:100%;
+  height:22em;
+  z-index: -2;
+}
+#python-desc{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.python-titulo h1{
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
+  top:200px;
+  color:#FF3B00;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3.5em;
+}
+#python-desc-a h1{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  color: black;
+}
+#python-desc-a p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#python-a p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#python-uno{
+  padding-top: 10px;
+}
+#python-a button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#python-a{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#python-b p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#python-dos{
+  padding-top: 10px;
+}
+#python-b button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#python-b{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#python-cod{
+  position: relative;
+  width:30%;
+  height:30%;
+  border-radius: 15px;
+}
+#python-c p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#python-tres{
+  padding-top: 10px;
+}
+#python-c button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#python-c{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#python-cod1{
+  position: relative;
+  width:60%;
+  height:60%;
+  border-radius: 15px;
+}
+#python-cod2{
+  position: relative;
+  width:30%;
+  height:30%;
+  border-radius: 15px;
+}
+#python-d p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#python-cuatro{
+  padding-top: 10px;
+}
+#python-d button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#python-d{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#python-cod3{
+  position: relative;
+  width:50%;
+  height:50%;
+  border-radius: 15px;
+}
