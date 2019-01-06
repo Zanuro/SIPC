@@ -249,7 +249,7 @@
     letter-spacing: 3px;
     font-family: 'Slabo 27px', serif;
     font-size: 50px;
-    color: grey;
+    color: #50524A;
   }
   .header-title p{
     position: relative;
@@ -259,7 +259,7 @@
     letter-spacing: 3px;
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
-    color: grey;
+    color: #50524A;
   }
   .usuario{
     position: relative;
@@ -298,7 +298,7 @@
     font-size: 20px;
     color:grey;
   }
-  #loginu{
+  #submit1{
     position:relative;
     bottom:30px;
     left:248px;
@@ -658,10 +658,6 @@
     text-decoration: none;
     transition: all 0.45s;
   }
-  .naveg li:hover {
-    background:
-    url:()
-  }
   .naveg li:hover a {
     color: #d94f5c;
   }
@@ -695,7 +691,7 @@
     visibility: visible;
     animation: fadeIn 0.8s;
     width: 25%;
-    height: 300%;
+    height: 400%;
     text-align: center;
     border-radius: 25%;
     padding: 10px 0;
@@ -712,7 +708,7 @@
   .popup {
     position: relative;
     margin: 0 auto;
-    top: 35%;
+    top: 25%;
     color:#70FF8F;
     right:5%;
     cursor: pointer;
@@ -753,12 +749,20 @@
   background-color: #FC9B1D;
   border-radius: 20px;
 }
-#buton-reg{
+#submit{
   margin-top: 25px;
   margin-bottom: 20px;
   padding: 10px 10px;
   background-color: #1F6B18;
   box-shadow: 1px 2px 2px 1px #FF0000;
+}
+#reset{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  background-color: #1F6B18;
+  box-shadow: 1px 2px 2px 1px #FF0000;
+  color: #FFFF;
 }
 
 #tit-reg{
@@ -1207,4 +1211,140 @@ html,body{
   width:50%;
   height:50%;
   border-radius: 15px;
+}
+.headar1{
+  background-image: url('https://bit.ly/2FbAbte');
+  background-attachment: scroll;
+  background-size:cover;
+  top:2em;
+  width:100%;
+  height:22em;
+  z-index: -2;
+}
+#ia-desc{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.ia-titulo h1{
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
+  top:200px;
+  color:#FF3B00;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3.5em;
+}
+#ia-desc-a h1{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  color: black;
+}
+#ia-desc-a p{
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#ia-a p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#ia-uno{
+  padding-top: 10px;
+}
+#ia-a button{
+    position: relative;
+    left:45%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#ia-a{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#ia-1{
+  position: relative;
+  width:25%;
+  height:25%;
+  border-radius: 15px;
+
+}
+#ia-b p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#ia-dos{
+  padding-top: 10px;
+}
+#ia-b button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#ia-b{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#ia-2{
+  position: relative;
+  width:25%;
+  height:25%;
+  border-radius: 15px;
+}
+
+#ia-c p{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: grey;
+}
+#ia-tres{
+  padding-top: 10px;
+}
+#ia-c button{
+    position: relative;
+    left:40%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#ia-c{
+  background-color: #FFEBA7;
+  border-radius: 20px;
+}
+#ia-3{
+  position: relative;
+  width:25%;
+  height:25%;
+  border-radius: 15px;
+}
+#mensaje-error{
+  text-align: left;
+  letter-spacing: 3px;
+  color:#E81900;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
+}
+#mensaje-error1{
+  position: relative;
+  bottom:2.2em;
+  text-align: center;
+  letter-spacing: 3px;
+  color:#003478;
+  letter-spacing: 3px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.2em;
 }
