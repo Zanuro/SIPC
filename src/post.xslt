@@ -86,8 +86,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
            </div>
     </form>
   </div>
- </nav>
-    <BODY style="margin-top:250px;">
+</nav>
+
+    <BODY>
      <B>Desafios de Programación</B>
      <BR/>
      <BR/>

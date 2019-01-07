@@ -1,5 +1,5 @@
  function comp_correo(email){
-    var filtro = /^([a-zA-Z0-9]{2,})+@(([a-zA-Z0-9]{2,20})+([_-]{0,1})+([a-zA-Z]){1,})\.[a-zA-Z0-9]{2,8}(?:\.[a-z]{1,5})?$/;
+    var filtro = /^([a-zA-Z0-9]{2,})+@(([a-zA-Z0-9]{1,20})+([_-]{0,1})+([a-zA-Z]){1,})\.[a-zA-Z0-9]{2,8}(?:\.[a-z]{1,5})?$/;
        return filtro.test(email.val());
   }
 
@@ -243,7 +243,6 @@ function comprobar_datoss()
 	{
 		mensaje_error += "-Correo no valido</br>";
 	}
-
 	if(mensaje_error !== "")
 	{
 		event.preventDefault();

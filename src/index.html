@@ -3,11 +3,12 @@
 <html lang="en"
 <head>
   <meta http-equiv="content-type" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
   <meta charset="UTF-8">
   <title> SysLearn </title>
   <link rel="stylesheet" type="text/css" href="design.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="logo.ico"/>
@@ -17,21 +18,20 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-ligth fixed-top">
-  <a class = "imag"href="index.html"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
+  <a class ="imag"href="index.html"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
     <a class="navbar-brand" class="nav-link" href="index.html">Sys-Learn</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class = "navbar-nav mr-6">
-        <!-- <li class="nav-item"><a class="nav-link" href="home">Página principal</a></li> -->
+      <ul class = "navbar-nav mr">
         <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
         <li class="nav-item"><a class="nav-link" href="retos">Challenges</a></li>
         <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
         <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
-        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
       </ul>
       <form class="form inline my-2">
         <input id="busq" class="form-control mr-sm-1" type="search" placeholder="Busqueda" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
+        <button class="btn btn-outline-success" type="button">Buscar</button>
         <a href="#container"><button class="btn btn-outline-success" type="button">Login</button></a>
         <div id="container">
           <div class="popup">
@@ -56,7 +56,7 @@
                   </div>
                   <div class="panell">
                     <label class="control-label" for="password">Password</label>
-                    <input type="password" name="password" id="password" required placeholder="*******" >
+                    <input type="password" pattern=".{4,}" required title="4 caracteres minimo" name="password" id="password" required placeholder="*******" >
                   </div>
                   <div class="row">
                     <div class="col-lg-1">
@@ -89,8 +89,7 @@
           </div>
         </form>
       </div>
-    </div>
-    </nav> <!--informacion google maps,correo, -->
+    </nav>
     <body>
       <div class="body-main">
         <div class="body-center">
@@ -101,6 +100,7 @@
             <h3>Here you can become a real programmer!</h3>
         </div>
       </header>
+      <hr>
       <div class="mainpage">
           <div id="uno"class="row">
             <div class="col-lg-6 offset-lg-2">
@@ -112,8 +112,7 @@
                 <a id="buton-1"class="btn btn-primary" href="#" role="button">See More</a>
                 <a id="bienv" class="btn-floating btn-li">
                   <i class="fa fa-code"></i></a>
-                  <img src="https://media.giphy.com/media/OkJat1YNdoD3W/giphy.gif" alt="Welcome" />
-                  <hr>
+                  <img src="https://media.giphy.com/media/OkJat1YNdoD3W/giphy.gif" alt="Welcome" style="width:40%;" />
                 </div>
 
                   <!-- <form action="datos.php" method="get">
@@ -123,10 +122,10 @@
                   Reset: <input type="reset" name="borrar" >
                 </form> -->
               </div>
+              <hr>
             </div>
             <div id="dos"class="row">
               <div class="col-lg-6 offset-lg-2">
-                <hr>
                 <h1> Challenges! </h1>
                 <h2> En esta seccion podras enfrentarte a los mejores
                   en diferentes retos de programacion, en el lenguaje
@@ -141,12 +140,11 @@
                     <a id="bienv1" class="btn-floating btn-li">
                       <i class="fa fa-archive"></i></a>
                        <img src="https://bit.ly/2LMUpe5" alt="molecule" />
-                      <hr>
                     </div>
                   </div>
+                  <hr>
                   <div id="tres" class="row">
                     <div id="otros"class="col-lg-6 offset-lg-2">
-                      <hr>
                       <h1>Learn to code!</h1>
                         <h2>Aprende cosas nuevas de la programacion!</h2>
                         <p>Skills que puedes mejorar con nosotros!</br>
@@ -182,7 +180,7 @@
                               <div id="rank4" class="btn btn-info btn-lg btn-custom-lg" >2 xor</div>
                               <div id="rank5" class="btn btn-info btn-lg btn-custom-lg" >1 xor</div>
                             </ul>
-                            <button class="btn btn-outline-success" type="submit">See Ranking</button>
+                            <button class="btn btn-primary" role="button">See Ranking</button>
                             <div class="textr">
                               <p> Los retos se clasifican en funcion de la dificultad aproximada.<br>
                                 A medida que vas completado los retos vas ganando xor<br>
@@ -199,7 +197,7 @@
                             <h1>Concursos activos!</h1>
                             <a id="trofeo" class="btn-floating btn-li">
                               <i class="fa fa-trophy"></i></a>
-                              <button class="btn btn-outline-success" type="submit">Concurso</button>
+                              <button class="btn btn-primary" type="submit">Concurso</button>
                               <a href="concurso.html">
                                 <img src="https://kickpoint.ca/wp-content/uploads/2016/01/Social-Media-Contest-OG_FB.jpg" style="width:300px;height:200px;border-radius:30px;" alt="logo">
                               </a>
@@ -271,7 +269,7 @@
                                       <h1> Ubicacion </h1>
                                       <p>Sta.Cruz de Tenerife</p>
                                       <a class="btn-floating btn-li" href="https://bit.ly/2zxCP8J" target="_blank">
-                                        <i class="fa fa-map-marker" style="font-size:24px"></i>
+                                        <i id="buton-ubic" class="fa fa-map-marker" style="font-size:24px"></i>
                                       </div>
                                     </div>
                                   </div>

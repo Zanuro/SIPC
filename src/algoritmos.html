@@ -16,16 +16,15 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-ligth fixed-top">
-  <a class = "imag"href="index.html"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
+  <a class ="imag"href="index.html"><img src="https://bit.ly/2qBuz2X" style="width:55px;height:40px;border-radius:10px;" alt="logo"/>
     <a class="navbar-brand" class="nav-link" href="index.html">Sys-Learn</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class = "navbar-nav mr-6">
-        <!-- <li class="nav-item"><a class="nav-link" href="home">Página principal</a></li> -->
+      <ul class = "navbar-nav mr">
         <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
         <li class="nav-item"><a class="nav-link" href="retos">Challenges</a></li>
-        <li class="nav-item"><a class="nav-link" href="foro">Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
         <li class="nav-item"><a class="nav-link" href="ranking">Ranking</a></li>
-        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="registro.html">Registrarse</a></li>
       </ul>
       <form class="form inline my-2">
@@ -38,7 +37,6 @@
               <img  src="https://cdn3.iconfinder.com/data/icons/simple-web-navigation/165/cross-512.png" style="width:25px;height:25px;border-radius:80px;" />
             </a>
           </div>
-          <div class="container-fluid">
             <div id="login_ej" class="headerr">
               <a id="lock" class="btn-floating btn-li">
                 <i class="fa fa-shield"></i></a>
@@ -48,14 +46,15 @@
                 </div>
               </div>
               <div class="panel">
-                <form action="datos.php" method="get">
+                <p id="mensaje-error1"> </p>
+                <form id="form" action="logeado.html" method="get">
                   <div class="usuario">
-                    <label class="control-label" for="email">Usuario</label>
-                    <input type="text" required placeholder="usuario@email.com" name="email" id="campo_correo">
+                    <label for="email" class="control-label">Usuario</label>
+                    <input type="text" name="email" id="email" required placeholder="usuario@email.com">
                   </div>
                   <div class="panell">
                     <label class="control-label" for="password">Password</label>
-                    <input type="password" required placeholder="*******" name="password" id="campo_pass">
+                    <input type="password" pattern=".{4,}" required title="4 caracteres minimo" name="password" id="password" required placeholder="*******" >
                   </div>
                   <div class="row">
                     <div class="col-lg-1">
@@ -67,12 +66,11 @@
                       </div>
                     </div>
                     <div class="col-lg-1">
-                      <button id="loginu"class="btn btn-outline-success" type="button" onclick="login()">Login</button>
+                      <input id="submit1" class="btn btn-outline-success" type="submit" value="Login"/>
                     </div>
                   </div>
                 </form>
               </div>
-            </div>
             <!-- <div id="usuario_ej" class="usuario_logged">
               <h1> Bienvenido a nuestro web-site </h1>
               <p id="user_logged"> Actualmente te encuentras logeado en nuestro sitio. </p>
@@ -89,8 +87,7 @@
           </div>
         </form>
       </div>
-    </div>
-    </nav> <!--informacion google maps,correo, -->
+    </nav>
     <body>
       <header class="header1">
         <div class="container-fluid">
@@ -278,7 +275,7 @@
                                   <h1> Ubicacion </h1>
                                   <p>Sta.Cruz de Tenerife</p>
                                   <a class="btn-floating btn-li" href="https://bit.ly/2zxCP8J" target="_blank">
-                                    <i class="fa fa-map-marker" style="font-size:24px"></i>
+                                    <i id="buton-ubic" class="fa fa-map-marker" style="font-size:24px"></i>
                                   </div>
                                 </div>
                               </div>
