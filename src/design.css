@@ -1370,3 +1370,24 @@ html,body{
   font-family: 'Slabo 27px', serif;
   font-size: 1.2em;
 }
+
+/* no funciona como deberia --> */
+.rating span {
+  display: inline-block;
+  color: #FF0900;
+  font-size: 30px;
+  width: 30px;
+  text-align: left;
+}
+.rating span:hover:before{
+  content: "\2611";
+  position: absolute;
+  cursor: pointer;
+  color: #00BACC;
+}
+.rating span:hover:after{
+  content: "\2611";
+  position: absolute;
+  cursor: pointer;
+  color: #00BACC;
+}
