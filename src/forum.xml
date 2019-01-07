@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl"  href="forum.xsl" ?>
+<foro>
+<hilo id="hilo1">
+<nombre>Tipos de Datos(C++)</nombre>
+<propietario>lola77</propietario>
+<fecha>19-07-2014</fecha>
+<numeropost>2526</numeropost>
+<lastpost>
+  <fechapost>03-01-2019</fechapost>
+  <autor>zulanx</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">C++</etiqueta>
+  <etiqueta id="tag2">Datatype</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo2">
+<nombre>Entrada Salida(C++)</nombre>
+<propietario>lola77</propietario>
+<fecha>02-07-2014</fecha>
+<numeropost>1398</numeropost>
+<lastpost>
+  <fechapost>22-11-2018</fechapost>
+  <autor>lolito97</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">C++</etiqueta>
+  <etiqueta id="tag2">Entrada/Salida</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo3">
+<nombre>Funciones(C++)</nombre>
+<propietario>lola77</propietario>
+<fecha>14-07-2014</fecha>
+<numeropost>4312</numeropost>
+<lastpost>
+  <fechapost>12-10-2018</fechapost>
+  <autor>Pescalos</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">C++</etiqueta>
+  <etiqueta id="tag2">Funciones</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo4">
+<nombre>Comandos Basicos(Linux Shell)</nombre>
+<propietario>carlitoselcrema</propietario>
+<fecha>13-03-2015</fecha>
+<numeropost>722</numeropost>
+<lastpost>
+  <fechapost>22-12-2018</fechapost>
+  <autor>ortx47</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Bash</etiqueta>
+  <etiqueta id="tag2">Linux</etiqueta>
+  <etiqueta id="tag3">Comandos</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo5">
+<nombre>Condicionales(Linux Shell)</nombre>
+<propietario>carlitoselcrema</propietario>
+<fecha>17-03-2015</fecha>
+<numeropost>672</numeropost>
+<lastpost>
+  <fechapost>12-12-2018</fechapost>
+  <autor>antoniappx122</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Bash</etiqueta>
+  <etiqueta id="tag2">Linux</etiqueta>
+  <etiqueta id="tag3">Condicionales</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo6">
+<nombre>Script(Linux Shell)</nombre>
+<propietario>carlitoselcrema</propietario>
+<fecha>24-03-2015</fecha>
+<numeropost>1247</numeropost>
+<lastpost>
+  <fechapost>02-01-2019</fechapost>
+  <autor>farero22sa</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Bash</etiqueta>
+  <etiqueta id="tag2">Linux</etiqueta>
+  <etiqueta id="tag3">Script</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo7">
+<nombre>Bucles(Python)</nombre>
+<propietario>romariothegoat93</propietario>
+<fecha>04-07-2016</fecha>
+<numeropost>478</numeropost>
+<lastpost>
+  <fechapost>31-10-2018</fechapost>
+  <autor>pesto01</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Python</etiqueta>
+  <etiqueta id="tag2">Bucles</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo8">
+<nombre>Formateo de Cadenas(Python)</nombre>
+<propietario>romariothegoat93</propietario>
+<fecha>16-08-2016</fecha>
+<numeropost>329</numeropost>
+<lastpost>
+  <fechapost>23-11-2018</fechapost>
+  <autor>torilla21</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Python</etiqueta>
+  <etiqueta id="tag2">String</etiqueta>
+  <etiqueta id="tag3">Formateo</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo9">
+<nombre>Control de Estructuras(Ruby)</nombre>
+<propietario>antonella89</propietario>
+<fecha>30-11-2017</fecha>
+<numeropost>456</numeropost>
+<lastpost>
+  <fechapost>13-01-2019</fechapost>
+  <autor>ratatata</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Ruby</etiqueta>
+  <etiqueta id="tag2">Estructuras</etiqueta>
+</tags>
+</hilo>
+<hilo id="hilo10">
+<nombre>Arrays(Ruby)</nombre>
+<propietario>antonella89</propietario>
+<fecha>02-02-2018</fecha>
+<numeropost>348</numeropost>
+<lastpost>
+  <fechapost>12-09-2018</fechapost>
+  <autor>bollecopes</autor>
+</lastpost>
+<tags>
+  <etiqueta id="tag1">Ruby</etiqueta>
+  <etiqueta id="tag2">Arrays</etiqueta>
+</tags>
+</hilo>
+</foro>
