@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Usuarios>
+
+  <USER id="1">
+    <RANK>10</RANK>
+    <USER_NAME>JoseManuel</USER_NAME>
+    <COUNTRY>ESP</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>94</XOR_POINTS>
+    <EMAIL>josem12@user.sys</EMAIL>
+    <CHALLENGES>5</CHALLENGES>
+    <CHAPTERS>8</CHAPTERS>
+    <LAST_SEEN> 07/01/2019 </LAST_SEEN>
+  </USER>
+
+  <USER id="2">
+    <RANK>7</RANK>
+    <USER_NAME>BorissStoic</USER_NAME>
+    <COUNTRY>RUS</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>110</XOR_POINTS>
+    <EMAIL>borissth@user.sys</EMAIL>
+    <CHALLENGES>7</CHALLENGES>
+    <CHAPTERS>9</CHAPTERS>
+    <LAST_SEEN>08/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="3">
+    <RANK>11</RANK>
+    <USER_NAME>RuudM</USER_NAME>
+    <COUNTRY>BEL</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>78</XOR_POINTS>
+    <EMAIL>ruudverm@user.sys</EMAIL>
+    <CHALLENGES>2</CHALLENGES>
+    <CHAPTERS>4</CHAPTERS>
+    <LAST_SEEN>07/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="4">
+    <RANK>1</RANK>
+    <USER_NAME>Zanuro</USER_NAME>
+    <COUNTRY>ESP</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>348</XOR_POINTS>
+    <EMAIL>zansyc@user.sys</EMAIL>
+    <CHALLENGES>21</CHALLENGES>
+    <CHAPTERS>14</CHAPTERS>
+    <LAST_SEEN>08/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="5">
+    <RANK>4</RANK>
+    <USER_NAME>Zukerg</USER_NAME>
+    <COUNTRY>USA</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>175</XOR_POINTS>
+    <EMAIL>zukgb1@user.sys</EMAIL>
+    <CHALLENGES>13</CHALLENGES>
+    <CHAPTERS>9</CHAPTERS>
+    <LAST_SEEN>05/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="6">
+    <RANK>8</RANK>
+    <USER_NAME>AttiUn</USER_NAME>
+    <COUNTRY>HUN</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>102</XOR_POINTS>
+    <EMAIL>atti99@user.sys</EMAIL>
+    <CHALLENGES>8</CHALLENGES>
+    <CHAPTERS>10</CHAPTERS>
+    <LAST_SEEN>27/12/2018</LAST_SEEN>
+  </USER>
+
+  <USER id="7">
+    <RANK>12</RANK>
+    <USER_NAME>JamesHeath</USER_NAME>
+    <COUNTRY>UK</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>68</XOR_POINTS>
+    <EMAIL>jameshh@user.sys</EMAIL>
+    <CHALLENGES>8</CHALLENGES>
+    <CHAPTERS>9</CHAPTERS>
+    <LAST_SEEN>02/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="8">
+    <RANK>6</RANK>
+    <USER_NAME>Magnuss00</USER_NAME>
+    <COUNTRY>SWE</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>121</XOR_POINTS>
+    <EMAIL>magnusscarl@user.sys</EMAIL>
+    <CHALLENGES>11</CHALLENGES>
+    <CHAPTERS>7</CHAPTERS>
+    <LAST_SEEN>01/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="9">
+    <RANK>5</RANK>
+    <USER_NAME>alexxpop</USER_NAME>
+    <COUNTRY>ROU</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>145</XOR_POINTS>
+    <EMAIL>alexcareepop@user.sys</EMAIL>
+    <CHALLENGES>18</CHALLENGES>
+    <CHAPTERS>2</CHAPTERS>
+    <LAST_SEEN>03/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="10">
+    <RANK>9</RANK>
+    <USER_NAME>alexisstom</USER_NAME>
+    <COUNTRY>GRE</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>97</XOR_POINTS>
+    <EMAIL>alexsgrk@user.sys</EMAIL>
+    <CHALLENGES>8</CHALLENGES>
+    <CHAPTERS>7</CHAPTERS>
+    <LAST_SEEN>05/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="11">
+    <RANK>3</RANK>
+    <USER_NAME>zorkthegreat</USER_NAME>
+    <COUNTRY>UKR</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>178</XOR_POINTS>
+    <EMAIL>zorkabb@user.sys</EMAIL>
+    <CHALLENGES>13</CHALLENGES>
+    <CHAPTERS>6</CHAPTERS>
+    <LAST_SEEN>06/01/2019</LAST_SEEN>
+  </USER>
+
+  <USER id="12">
+    <RANK>2</RANK>
+    <USER_NAME>johnway</USER_NAME>
+    <COUNTRY>AUS</COUNTRY>
+    <IMG> </IMG>
+    <XOR_POINTS>302</XOR_POINTS>
+    <EMAIL>johnn@user.sys</EMAIL>
+    <CHALLENGES>16</CHALLENGES>
+    <CHAPTERS>20</CHAPTERS>
+    <LAST_SEEN>07/01/2019</LAST_SEEN>
+  </USER>
+
+</Usuarios>
