@@ -1,0 +1,24 @@
+.header table{
+align: center;
+}
+.tabs{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.tabs tbody{
+
+}
+.tabs table{
+
+}
+.tabs tr{
+
+}
+.tabs td{
+  text-align: center;
+  padding: 10px;
+}
+.tabs th{
+  padding: 6px;
+  font-family: georgia;
+}

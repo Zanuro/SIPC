@@ -34,6 +34,15 @@
   opacity: 0.9;
   margin-block-end: 10px;
 }
+.headar {
+    background-image: url(https://bit.ly/2VwIAgh);
+    background-attachment: scroll;
+    background-size: cover;
+    top: 2em;
+    width: 100%;
+    height: 22em;
+    z-index: -2;
+}
 .titulo {
   text-align: center;
   bottom: -5em;
@@ -611,8 +620,24 @@ img {
   margin: 0;
   letter-spacing: 1.1px;
 }
-
-
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.python-titulo h1 {
+    position: relative;
+    text-align: center;
+    letter-spacing: 3px;
+    top: 200px;
+    color: #FF3B00;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 3.5em;
+}
 html {
   max-width: 100%;
   overflow-x: hidden;
