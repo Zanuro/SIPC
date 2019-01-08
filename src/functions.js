@@ -158,8 +158,6 @@ function main()
 {
 	$("#submit").click(comprobar_datos);
   $("#submit1").click(comprobar_datoss);
-
-
 }
 
 function comprobar_datoss()
